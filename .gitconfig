@@ -1,0 +1,116 @@
+[alias]
+  a = add
+
+  br = branch
+  b = branch -v                     # branch (verbose)
+
+  co = checkout
+  ci = commit -m
+  cim = commit
+
+  cp = cherry-pick -x               # grab a change from a branch
+
+  pl = pull                         # pull
+  ps = push                         # push
+
+  rc = rebase --continue            # continue rebase
+  rs = rebase --skip                # skip rebase
+  ra = rebase --abort               # abort rebase
+
+  s = status
+  st = status
+  stat = status
+
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph
+  ls = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
+  graph = log --graph --pretty=format':%C(yellow)%h%Cred%d%Creset %s %C(white) %an, %ar%Creset'
+
+  type = cat-file -t
+  dump = cat-file -p
+
+  # I can't type
+  fecth = fetch
+  megre = merge
+
+  # reset
+  amend = commit --amend -C HEAD
+  msg = commit --amend -m #"New commit message"
+  undo = reset --soft HEAD^
+  unstage = reset HEAD              # remove files from index (tracking)
+  uncommit = reset --soft HEAD^     # go back before last commit, with files in uncommitted state
+
+  # stash
+  ss = stash                        # stash changes
+  sl = stash list                   # list stashes
+  sa = stash apply                  # apply stash (restore changes)
+  sd = stash drop                   # drop stashes (destory changes)
+
+  standup = log --since '1 day ago' --oneline --author mgoodwin@financeit.io
+  find = log --pretty=\"format:%Cgreen%H %Cred%s\" --name-status --grep
+
+  ds = diff --staged
+  dfw = diff --ignore-space-change
+	dff = diff --ignore-space-change
+  last = diff HEAD^                 # diff last committed change
+
+  pp = diff origin/master..HEAD
+
+  # via http://blog.apiaxle.com/post/handy-git-tips-to-stop-you-getting-fired/
+  snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+  snapshots = !git stash list --grep snapshot
+
+  # ours   = "!f() { git checkout --ours $@ && git add $@; }; f"
+  # theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
+[core]
+	editor = subl -n -w
+	autocrlf = false
+	safecrlf = true
+	excludesfile = /Users/mike/.gitignore_global
+[user]
+	name = Michael Goodwin
+	email = mgoodwin@financeit.io
+[push]
+  # 'git push' will push the current branch to its tracking branch
+  # the usual default is to push all branches
+	default = upstream
+[branch]
+	autosetuprebase = always
+  autosetupmerge = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[color]
+	ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = cyan
+[format]
+  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+[merge]
+  summary = true
+  verbosity = 1
+[apply]
+  whitespace = nowarn
+[advice]
+  statusHints = false
+[diff]
+  # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
+  # instead of a/b/c/d as prefixes for patches
+  mnemonicprefix = true
+  algorithm = patience
+[rerere]
+  # Remember my merges
+  # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
+  enabled = true
+[include]
+  path = .gitconfig.user
