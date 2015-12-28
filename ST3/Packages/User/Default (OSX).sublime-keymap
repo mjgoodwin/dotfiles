@@ -1,0 +1,113 @@
+  [
+  // Easy Reindent
+  { "keys": ["super+shift+e"],  "command": "reindent" },
+
+  // Rails Magic Clipboard
+  { "keys": ["super+shift+v"], "command": "rails_magic_clipboard" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+
+  // Clipboard Manager Suggestions
+  // { "keys": ["super+x"], "command": "clipboard_manager_cut" },
+  // { "keys": ["super+c"], "command": "clipboard_manager_copy" },
+
+  // { "keys": ["super+v"], "command": "clipboard_manager_paste", "args": { "indent": true } },
+  // { "keys": ["super+ctrl+v"], "command": "clipboard_manager_paste", "args": { "indent": false } },
+
+  // Fix End of line
+  { "keys": ["super+right"], "command": "move_to", "args": {"to": "hardeol", "extend": false} }
+  // Fix Beginning of line
+  ,{ "keys": ["super+left"], "command": "move_to", "args": {"to": "bol", "extend": false} }
+  // Fix end of line + select
+  ,{ "keys": ["super+shift+right"], "command": "move_to", "args": {"to": "hardeol", "extend": true} }
+  // Fix beginning of line + select
+  ,{ "keys": ["super+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} }
+
+  // Multi Pane Workflow
+  // http://tomschlick.com/2012/10/31/customizing-sublime-text-2s-multi-pane-workflow/
+  ,
+  {
+    "keys": ["super+alt+right"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.33, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["super+alt+left"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.66, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["super+alt+up"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["super+alt+down"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  { "keys": ["ctrl+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
+  { "keys": ["ctrl+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
+
+  // Easy tabbing
+  { "keys": ["super+-"], "command": "prev_view" },
+  { "keys": ["super+="], "command": "next_view" },
+
+  { "keys": ["super+n"], "command": "advanced_new_file_new"},
+  { "keys": ["super+shift+n"], "command": "new_file" },
+
+  // Refresh busted sidebar
+  { "keys": ["super+alt+k", "super+alt+b"], "command": "refresh_folder_list" },
+
+  { "keys": ["super+ctrl+="], "command": "alignment" }
+  // Alternative autocompletion for Sublime Text
+  // {
+  //   "keys": ["tab"],
+  //   "command": "alternative_autocomplete",
+  //   "args": {"default": "\t"},
+  //   "context": [
+  //     { "key": "num_selections", "operator": "equal", "operand": 1 }
+  //   ]
+  // },
+  // {
+  //   "keys": ["shift+tab"],
+  //   "command": "alternative_autocomplete",
+  //   "args": {"cycle": "previous"},
+  //   "context": [
+  //     { "key": "num_selections", "operator": "equal", "operand": 1 }
+  //   ]
+  // },
+  // {
+  //   "keys": ["tab"],
+  //   "command": "indent",
+  //   "context": [
+  //     { "key": "text", "operator": "regex_contains", "operand": "\n" }
+  //   ]
+  // },
+  // {
+  //   "keys": ["shift+tab"],
+  //   "command": "unindent",
+  //   "context": [
+  //     { "key": "text", "operator": "regex_contains", "operand": "\n" }
+  //   ]
+  // }
+]
