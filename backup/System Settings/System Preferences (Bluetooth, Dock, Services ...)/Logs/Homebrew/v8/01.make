@@ -1,0 +1,317 @@
+PYTHONPATH="/private/tmp/v8-aLt1/v8-3.21.17/tools/generate_shim_headers:" \
+	GYP_GENERATORS=make \
+	build/gyp/gyp --generator-output="out" build/all.gyp \
+	              -Ibuild/standalone.gypi --depth=. -S.native  -Dcomponent=shared_library -Dconsole=readline -Dv8_enable_backtrace=1 -Darm_fpu=default -Darm_float_abi=default
+  ACTION tools_gyp_v8_gyp_js2c_target_js2c /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj/gen/libraries.cc
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/accessors.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/allocation.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/api.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/arguments.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/assembler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ast.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/atomicops_internals_x86_gcc.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/bignum-dtoa.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/bignum.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/bootstrapper.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/builtins.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/cached-powers.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/checks.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/code-stubs.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/code-stubs-hydrogen.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/codegen.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/compilation-cache.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/compiler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/contexts.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/conversions.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/counters.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/cpu-profiler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/cpu.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/data-flow.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/date.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/dateparser.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/debug-agent.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/debug.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/deoptimizer.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/disassembler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/diy-fp.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/dtoa.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/elements-kind.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/elements.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/execution.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/extensions/externalize-string-extension.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/extensions/gc-extension.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/extensions/statistics-extension.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/factory.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/fast-dtoa.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/fixed-dtoa.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/flags.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/frames.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/full-codegen.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/func-name-inferrer.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/gdb-jit.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/global-handles.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/handles.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/heap-profiler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/heap-snapshot-generator.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/heap.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-bce.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-bch.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-canonicalize.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-dce.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-dehoist.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-deoptimizing-mark.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-environment-liveness.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-escape-analysis.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-instructions.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-gvn.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-infer-representation.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-infer-types.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-load-elimination.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-mark-deoptimize.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-minus-zero.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-osr.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-range-analysis.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-redundant-phi.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-removable-simulates.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-representation-changes.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-sce.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/hydrogen-uint32-analysis.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/icu_util.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ic.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/incremental-marking.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/interface.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/interpreter-irregexp.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/isolate.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/jsregexp.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/lithium-allocator.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/lithium.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/liveedit.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/log-utils.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/log.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/mark-compact.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/marking-thread.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/messages.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/objects-debug.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/objects-printer.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/objects-visiting.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/objects.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/once.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/optimizing-compiler-thread.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/parser.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/platform/time.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/platform/condition-variable.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/platform/mutex.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/platform/semaphore.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/platform/socket.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/preparse-data.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/preparser.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/prettyprinter.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/profile-generator.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/property.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/regexp-macro-assembler-irregexp.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/regexp-macro-assembler-tracer.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/regexp-macro-assembler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/regexp-stack.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/rewriter.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/runtime-profiler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/runtime.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/safepoint-table.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/sampler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/scanner-character-streams.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/scanner.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/scopeinfo.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/scopes.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/serialize.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/snapshot-common.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/spaces.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/store-buffer.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/string-search.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/string-stream.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/strtod.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/stub-cache.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/sweeper-thread.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/token.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/transitions.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/type-info.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/types.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/typing.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/unicode.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/utils.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/utils/random-number-generator.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/v8-counters.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/v8.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/v8conversions.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/v8threads.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/v8utils.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/variables.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/version.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/zone.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/assembler-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/builtins-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/code-stubs-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/codegen-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/cpu-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/debug-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/deoptimizer-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/disasm-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/frames-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/full-codegen-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/ic-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/lithium-codegen-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/lithium-gap-resolver-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/lithium-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/macro-assembler-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/regexp-macro-assembler-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/stub-cache-ia32.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/assembler-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/builtins-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/code-stubs-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/codegen-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/cpu-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/debug-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/deoptimizer-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/disasm-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/frames-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/full-codegen-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/ic-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/lithium-codegen-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/lithium-gap-resolver-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/lithium-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/macro-assembler-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/regexp-macro-assembler-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/x64/stub-cache-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/platform-macos.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/platform-posix.o
+  ACTION tools_gyp_v8_gyp_js2c_target_js2c_experimental /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj/gen/experimental-libraries.cc
+  ACTION test_cctest_cctest_gyp_resources_target_js2c /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj/gen/resources.cc
+  TOUCH /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/test/cctest/resources.stamp
+  TOUCH /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/tools/gyp/js2c.stamp
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_nosnapshot.x64/gen/libraries.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_nosnapshot.x64/gen/experimental-libraries.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_nosnapshot.x64/src/snapshot-empty.o
+  LIBTOOL-STATIC /private/tmp/v8-aLt1/v8-3.21.17/out/native/libv8_base.x64.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/atomicops_internals_x86_gcc.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/objects-debug.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/objects-printer.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/prettyprinter.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/regexp-macro-assembler-irregexp.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/string-search.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/assembler-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/builtins-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/code-stubs-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/codegen-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/cpu-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/debug-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/deoptimizer-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/disasm-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/frames-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/full-codegen-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/ic-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/lithium-codegen-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/lithium-gap-resolver-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/lithium-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/macro-assembler-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/regexp-macro-assembler-ia32.o has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_base.x64/src/ia32/stub-cache-ia32.o has no symbols
+  LIBTOOL-STATIC /private/tmp/v8-aLt1/v8-3.21.17/out/native/libv8_nosnapshot.x64.a
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/mksnapshot.x64/src/mksnapshot.o
+  LINK(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/mksnapshot.x64
+  ACTION tools_gyp_v8_gyp_v8_snapshot_target_run_mksnapshot /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_snapshot/geni/snapshot.cc
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_snapshot/gen/libraries.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_snapshot/gen/experimental-libraries.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8_snapshot/geni/snapshot.o
+  LIBTOOL-STATIC /private/tmp/v8-aLt1/v8-3.21.17/out/native/libv8_snapshot.a
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/preparser/preparser/preparser-process.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/preparser/src/preparser-api.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/v8/src/v8dll-main.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/gen/resources.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/cctest.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/gay-fixed.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/gay-precision.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/gay-shortest.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-accessors.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-alloc.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-api.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-ast.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-bignum.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-bignum-dtoa.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-circular-queue.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-compiler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-condition-variable.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-conversions.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-cpu.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-cpu-profiler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-dataflow.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-date.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-debug.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-declarative-accessors.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-decls.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-deoptimization.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-dictionary.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-diy-fp.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-double.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-dtoa.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-fast-dtoa.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-fixed-dtoa.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-flags.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-func-name-inference.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-global-handles.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-global-object.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-hashing.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-hashmap.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-heap.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-heap-profiler.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-list.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-liveedit.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-lockers.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-log.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-mark-compact.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-mutex.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-object-observe.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-parsing.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-platform.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-platform-tls.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-profile-generator.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-random.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-random-number-generator.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-regexp.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-reloc-info.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-semaphore.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-serialize.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-socket.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-spaces.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-strings.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-symbols.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-strtod.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-thread-termination.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-threads.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-time.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-types.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-unbound-queue.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-unique.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-utils.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-version.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-weakmaps.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-weaksets.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-weaktypedarrays.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-assembler-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-code-stubs.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-code-stubs-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-cpu-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-macro-assembler-x64.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-log-stack-tracer.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/cctest/test/cctest/test-platform-macos.o
+  LINK(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/preparser
+  SOLINK(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/libv8.dylib
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/shell/samples/shell.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/process/samples/process.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/lineprocessor/samples/lineprocessor.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/d8/src/d8.o
+  CXX(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/d8/src/d8-readline.o
+  LINK(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/cctest
+  LINK(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/shell
+  LINK(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/lineprocessor
+  LINK(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/process
+  LINK(target) /private/tmp/v8-aLt1/v8-3.21.17/out/native/d8
+  TOUCH /private/tmp/v8-aLt1/v8-3.21.17/out/native/obj.target/build/All.stamp

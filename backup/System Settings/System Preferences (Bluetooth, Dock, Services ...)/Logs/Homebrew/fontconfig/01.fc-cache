@@ -1,0 +1,16 @@
+/usr/share/fonts: skipping, no such directory
+/System/Library/Fonts: caching, new cache contents: 121 fonts, 0 dirs
+/Library/Fonts: caching, new cache contents: 384 fonts, 0 dirs
+/Users/mike/Library/Fonts: caching, new cache contents: 0 fonts, 0 dirs
+/Users/mike/.local/share/fonts: skipping, no such directory
+/Users/mike/.fonts: skipping, no such directory
+/usr/share/fonts: skipping, no such directory
+/System/Library/Fonts: caching, new cache contents: 121 fonts, 0 dirs
+/Library/Fonts: caching, new cache contents: 384 fonts, 0 dirs
+/Users/mike/Library/Fonts: caching, new cache contents: 0 fonts, 0 dirs
+/Users/mike/.local/share/fonts: skipping, no such directory
+/Users/mike/.fonts: skipping, no such directory
+/usr/local/var/cache/fontconfig: cleaning cache directory
+/Users/mike/.cache/fontconfig: not cleaning non-existent cache directory
+/Users/mike/.fontconfig: not cleaning non-existent cache directory
+/usr/local/Cellar/fontconfig/2.11.0/bin/fc-cache: succeeded

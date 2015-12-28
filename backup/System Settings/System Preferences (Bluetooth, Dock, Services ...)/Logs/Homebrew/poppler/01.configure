@@ -1,0 +1,252 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether clang accepts -g... yes
+checking for clang option to accept ISO C89... none needed
+checking whether clang understands -c and -o together... yes
+checking dependency style of clang... none
+checking how to run the C preprocessor... clang -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking build system type... x86_64-apple-darwin13.0.2
+checking host system type... x86_64-apple-darwin13.0.2
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/local/Library/ENV/4.3/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by clang... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+checking the name lister (/usr/bin/nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-apple-darwin13.0.2 file names to x86_64-apple-darwin13.0.2 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin13.0.2 file names to toolchain format... func_convert_file_noop
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm output from clang object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if clang supports -fno-rtti -fno-exceptions... yes
+checking for clang option to produce PIC... -fno-common -DPIC
+checking if clang PIC flag -fno-common -DPIC works... yes
+checking if clang static flag -static works... no
+checking if clang supports -c -o file.o... yes
+checking if clang supports -c -o file.o... (cached) yes
+checking whether the clang linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin13.0.2 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc... (cached) clang
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether clang accepts -g... (cached) yes
+checking for clang option to accept ISO C89... (cached) none needed
+checking whether clang understands -c and -o together... (cached) yes
+checking dependency style of clang... (cached) none
+checking whether we are using the GNU C++ compiler... yes
+checking whether clang++ accepts -g... yes
+checking dependency style of clang++... none
+checking how to run the C++ preprocessor... clang++ -E
+checking for ld used by clang++... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking whether the clang++ linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking for clang++ option to produce PIC... -fno-common -DPIC
+checking if clang++ PIC flag -fno-common -DPIC works... yes
+checking if clang++ static flag -static works... no
+checking if clang++ supports -c -o file.o... yes
+checking if clang++ supports -c -o file.o... (cached) yes
+checking whether the clang++ linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin13.0.2 dyld
+checking how to hardcode library paths into programs... immediate
+checking for library containing strerror... none required
+checking for clang option to accept ISO C99... none needed
+checking for clang option to accept ISO Standard C... (cached) none needed
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether clang++ accepts -g... (cached) yes
+checking dependency style of clang++... (cached) none
+checking for pkg-config... /usr/local/opt/pkg-config/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... -D_THREAD_SAFE
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for X... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for stdint.h... (cached) yes
+checking whether gettimeofday is declared... yes
+checking for gettimeofday... yes
+checking for localtime_r... yes
+checking for gmtime_r... yes
+checking for rand_r... yes
+checking for gethostbyname... yes
+checking for nanosleep... yes
+checking for LIBOPENJPEG... yes
+checking for TIFFOpen in -ltiff... yes
+checking tiffio.h usability... yes
+checking tiffio.h presence... yes
+checking for tiffio.h... yes
+checking for popen... yes
+checking for mkstemp... yes
+checking for mkstemps... yes
+checking for strcpy_s... no
+checking for strcat_s... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for fseek64... no
+checking for ftell64... no
+checking for pread64... no
+checking for lseek64... no
+checking for libjpeg6b... no
+checking for libjpeg... -ljpeg
+checking jpeglib.h usability... yes
+checking jpeglib.h presence... yes
+checking for jpeglib.h... yes
+checking libjpeg.h works correctly... ok
+checking for LIBPNG... yes
+checking for FREETYPE... yes
+checking which font configuration to use... fontconfig
+checking for FONTCONFIG... yes
+checking for CAIRO... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for POPPLER_QT5... no
+checking for iconv... yes
+checking for working iconv... yes
+checking how to link with libiconv... -liconv
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for GTK_TEST... no
+checking for LCMS... yes
+checking for test data in /private/tmp/poppler-b0Mr/poppler-0.24.4/./../test... no
+configure: WARNING:
+ No test data found in /private/tmp/poppler-b0Mr/poppler-0.24.4/./../test.
+ You will not be able to run 'make check' successfully.
+
+ The test data is not included in the source packages
+ and is also not part of the main git repository. Instead,
+ you can checkout the test data from its own git
+ repository with:
+
+   git clone git://git.freedesktop.org/git/poppler/test
+
+ You should checkout the test data as a sibling of your
+ poppler source folder or specify the location of your
+ checkout with --with-testdatadir=/path/to/checkoutdir/test.
+
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating goo/Makefile
+config.status: creating fofi/Makefile
+config.status: creating splash/Makefile
+config.status: creating poppler/Makefile
+config.status: creating utils/Makefile
+config.status: creating glib/Makefile
+config.status: creating glib/poppler-features.h
+config.status: creating glib/reference/Makefile
+config.status: creating glib/reference/version.xml
+config.status: creating glib/demo/Makefile
+config.status: creating test/Makefile
+config.status: creating qt4/Makefile
+config.status: creating qt4/src/Makefile
+config.status: creating qt4/tests/Makefile
+config.status: creating qt4/demos/Makefile
+config.status: creating qt5/Makefile
+config.status: creating qt5/src/Makefile
+config.status: creating qt5/tests/Makefile
+config.status: creating qt5/demos/Makefile
+config.status: creating cpp/Makefile
+config.status: creating cpp/poppler-version.h
+config.status: creating cpp/tests/Makefile
+config.status: creating poppler.pc
+config.status: creating poppler-uninstalled.pc
+config.status: creating poppler-cairo.pc
+config.status: creating poppler-cairo-uninstalled.pc
+config.status: creating poppler-splash.pc
+config.status: creating poppler-splash-uninstalled.pc
+config.status: creating poppler-glib.pc
+config.status: creating poppler-glib-uninstalled.pc
+config.status: creating poppler-qt4.pc
+config.status: creating poppler-qt4-uninstalled.pc
+config.status: creating poppler-qt5.pc
+config.status: creating poppler-qt5-uninstalled.pc
+config.status: creating poppler-cpp.pc
+config.status: creating poppler-cpp-uninstalled.pc
+config.status: creating config.h
+config.status: creating poppler/poppler-config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+Building poppler with support for:
+  font configuration: fontconfig
+  splash output:      yes
+  cairo output:       no (requires cairo >= 1.10.0)
+  qt4 wrapper:        no
+  qt5 wrapper:        no
+  glib wrapper:       no (requires cairo output)
+    introspection:    no
+  cpp wrapper:        yes
+  use gtk-doc:        no
+  use libjpeg:        yes
+  use libpng:         yes
+  use libtiff:        yes
+  use zlib:           no
+  use libcurl:        no
+  use libopenjpeg:    yes
+  use cms:            yes
+      with lcms2
+  command line utils: yes
+  test data dir:      /private/tmp/poppler-b0Mr/poppler-0.24.4/./../test
+

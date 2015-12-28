@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>iChat (Accounts, Preferences)</string>
+	<string>0.1</string>
+	<string>~/Library/Preferences/com.apple.iChat.AIM.plist</string>
+	<string>~/Library/Preferences/com.apple.iChat.Jabber.plist</string>
+	<string>~/Library/Preferences/com.apple.iChat.plist</string>
+	<string>~/Library/Preferences/com.apple.iChat.SubNet.plist</string>
+	<string>~/Library/Preferences/com.apple.iChatAgent.plist</string>
+</array>
+</plist>

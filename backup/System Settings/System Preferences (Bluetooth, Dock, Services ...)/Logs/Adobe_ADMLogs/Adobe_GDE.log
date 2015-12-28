@@ -1,0 +1,13 @@
+04/30/15 13:05:16:527 | [INFO] |  |  |  |  |  |  | 274549 | *******************start of Download****************
+04/30/15 13:05:16:527 | [INFO] |  |  |  |  |  |  | 274549 | GDE Version is 1.0.0.1
+04/30/15 13:05:17:797 | [INFO] |  |  |  |  |  |  | 274550 | The file to be downloaded is http://platformdl.adobe.com/adm/manifest/ReaderInstaller_dc_en_1500720033.xml
+04/30/15 13:05:17:797 | [INFO] |  |  |  |  |  |  | 274550 | Going to download the file at /Users/mike/Library/Application Support/Adobe/.7527ED8D-2C57-46D0-8F27-B8735906D549/0910A865-57BF-4744-8499-4ADEC1319315/362BB32A-9542-455D-8A1E-221174F2F53B
+04/30/15 13:05:17:797 | [INFO] |  |  |  |  |  |  | 274550 | Preference: Client has set the preference for single stream download
+04/30/15 13:05:18:100 | [INFO] |  |  |  |  |  |  | 274560 | **File download complete.**
+04/30/15 13:05:18:106 | [INFO] |  |  |  |  |  |  | 274560 | The file to be downloaded is http://ardownload.adobe.com/pub/adobe/reader/mac/AcrobatDC/1500720033/AcroRdrDC_1500720033_MUI.dmg
+04/30/15 13:05:18:106 | [INFO] |  |  |  |  |  |  | 274560 | Going to download the file at /Users/mike/Library/Application Support/Adobe/.7527ED8D-2C57-46D0-8F27-B8735906D549/0910A865-57BF-4744-8499-4ADEC1319315/B67E6FF9-3069-48B0-8732-77787D8A2316
+04/30/15 13:05:30:444 | [INFO] |  |  |  |  |  |  | 274576 | incrementing the thread. now the active thread count is 7
+04/30/15 13:05:30:914 | [INFO] |  |  |  |  |  |  | 274576 | **File download complete.**
+04/30/15 13:06:33:437 | [INFO] |  |  |  |  |  |  | 274378 | *******************End****************
+
+

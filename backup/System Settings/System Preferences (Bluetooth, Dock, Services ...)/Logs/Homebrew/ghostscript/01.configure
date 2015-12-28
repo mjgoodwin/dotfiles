@@ -1,0 +1,203 @@
+checking for gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether clang accepts -g... yes
+checking for clang option to accept ISO C89... none needed
+checking how to run the C preprocessor... clang -E
+checking for a sed that does not truncate output... /usr/local/Library/ENV/4.3/sed
+checking for ranlib... ranlib
+checking for pkg-config... /usr/local/opt/pkg-config/bin/pkg-config
+checking supported compiler flags... 
+   -O2
+   -Wall
+   -Wstrict-prototypes
+   -Wundef
+   -Wmissing-declarations
+   -Wmissing-prototypes
+   -Wwrite-strings
+   -Wno-strict-aliasing
+   -Wdeclaration-after-statement
+   -fno-builtin
+   -fno-common
+
+   -g
+   -O0
+ ...done.
+checking for big endian... little
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking malloc.h usability... no
+checking malloc.h presence... no
+checking for malloc.h... no
+checking for memory.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking ndir.h usability... no
+checking ndir.h presence... no
+checking for ndir.h... no
+checking sys/dir.h usability... yes
+checking sys/dir.h presence... yes
+checking for sys/dir.h... yes
+checking sys/ndir.h usability... no
+checking sys/ndir.h presence... no
+checking for sys/ndir.h... no
+checking for inttypes.h... (cached) yes
+checking sys/window.h usability... no
+checking sys/window.h presence... no
+checking for sys/window.h... no
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for mode_t... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for struct stat.st_blocks... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking size of unsigned long int... 8
+checking for cos in -lm... yes
+checking for pthread_create in -lpthread... yes
+checking for iconv_open... no
+checking for libiconv_open in -liconv... no
+checking for iconv_open in -liconv... yes
+checking for stringprep in -lidn... no
+checking for systempapername in -lpaper... no
+configure: WARNING: disabling support for libpaper
+checking for fontconfig with pkg-config... no
+checking for FcInitLoadConfigAndFonts in -lfontconfig... yes
+checking fontconfig/fontconfig.h usability... yes
+checking fontconfig/fontconfig.h presence... yes
+checking for fontconfig/fontconfig.h... yes
+checking for dbus with pkg-config... no
+checking for dbus_message_iter_get_basic in -ldbus... no
+checking for dlopen in -ldl... yes
+checking for local freetype library source... no
+checking for system freetype2 >= 2.4.2 with pkg-config... no
+configure: WARNING: freetype library source not found...using native rasterizer
+checking for local jpeg library source... no
+checking for jpeg_set_defaults in -ljpeg... yes
+checking jpeglib.h usability... yes
+checking jpeglib.h presence... yes
+checking for jpeglib.h... yes
+checking for jmemsys.h... no
+checking for local zlib source... no
+checking for deflate in -lz... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for local png library source... no
+checking for png_create_write_struct in -lpng... yes
+checking png.h usability... yes
+checking png.h presence... yes
+checking for png.h... yes
+checking for local lcms2 library source... no
+checking for system lcms2 library... checking for cmsGetTransformOutputFormat in -llcms2... yes
+checking lcms2.h usability... yes
+checking lcms2.h presence... yes
+checking for lcms2.h... yes
+checking for libtiff with pkg-config... yes
+checking for local ijs library source... yes
+checking for local Luratech JBIG2 library source... no
+checking for local jbig2dec library source... no
+checking for jbig2_page_out in -ljbig2dec... yes
+checking for local Luratech JPEG2K library source... no
+checking for local OpenJPEG library source... yes
+checking for memalign... no
+checking for X... disabled
+checking for mkstemp... yes
+checking for fopen64... no
+checking for fseeko... yes
+checking for mkstemp64... no
+checking for setlocale... yes
+checking for strerror... yes
+checking whether clang needs -traditional... no
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for working memcmp... yes
+checking return type of signal handlers... void
+checking whether lstat correctly handles trailing slash... no
+checking whether stat accepts an empty string... no
+checking for vprintf... yes
+checking for _doprnt... no
+checking for bzero... yes
+checking for dup2... yes
+checking for floor... yes
+checking for gettimeofday... yes
+checking for memchr... yes
+checking for memmove... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for mkfifo... yes
+checking for modf... yes
+checking for pow... yes
+checking for putenv... yes
+checking for rint... yes
+checking for setenv... yes
+checking for sqrt... yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for sqrtf... yes
+checking sse2 support... yes
+checking byteswap support... yes
+checking for byteswap.h... no
+configure: creating ./config.status
+config.status: creating Makefile
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating cups/gstopxl
+configure: WARNING: Using "native" font scaler which is now deprecated (rather than freetype),
+configure: WARNING: Support for this will be removed in a future release

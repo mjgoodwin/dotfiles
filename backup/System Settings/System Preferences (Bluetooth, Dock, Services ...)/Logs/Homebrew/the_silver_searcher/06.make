@@ -1,0 +1,11 @@
+  CC       src/ignore.o
+  CC       src/log.o
+  CC       src/options.o
+  CC       src/print.o
+  CC       src/scandir.o
+  CC       src/search.o
+  CC       src/lang.o
+  CC       src/util.o
+  CC       src/decompress.o
+  CC       src/main.o
+  CCLD     ag

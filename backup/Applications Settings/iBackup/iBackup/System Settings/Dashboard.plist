@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Dashboard</string>
+	<string>0.3</string>
+	<string>~/Library/Preferences/com.apple.dashboard.client.plist</string>
+	<string>~/Library/Preferences/com.apple.dashboard.plist</string>
+	<string>~/Library/Widgets</string>
+</array>
+</plist>

@@ -1,0 +1,512 @@
+configuring GraphicsMagick 1.3.18
+checking build system type... x86_64-apple-darwin13.0.2
+checking host system type... x86_64-apple-darwin13.0.2
+checking whether build environment is sane... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a thread-safe mkdir -p... config/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether clang accepts -g... yes
+checking for clang option to accept ISO C89... none needed
+checking dependency style of clang... none
+checking how to run the C preprocessor... clang -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc... (cached) clang
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether clang accepts -g... (cached) yes
+checking for clang option to accept ISO C89... (cached) none needed
+checking dependency style of clang... (cached) none
+checking for clang option to accept ISO C99... none needed
+checking for clang option to accept ISO Standard C... (cached) none needed
+checking how to run the C preprocessor... clang -E
+checking for a sed that does not truncate output... /usr/local/Library/ENV/4.3/sed
+checking for fgrep... /usr/bin/grep -F
+checking how to print strings... printf
+checking for ld used by clang... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking whether clang and cc understand -c and -o together... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking whether ln -s works... yes
+checking for gawk... (cached) awk
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... -D_THREAD_SAFE
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+checking the name lister (/usr/bin/nm) interface... BSD nm
+checking the maximum length of command line arguments... 196608
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-apple-darwin13.0.2 file names to x86_64-apple-darwin13.0.2 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin13.0.2 file names to toolchain format... func_convert_file_noop
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r
+checking for objdump... no
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm output from clang object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if clang supports -fno-rtti -fno-exceptions... yes
+checking for clang option to produce PIC... -fno-common -DPIC
+checking if clang PIC flag -fno-common -DPIC works... yes
+checking if clang static flag -static works... no
+checking if clang supports -c -o file.o... yes
+checking if clang supports -c -o file.o... (cached) yes
+checking whether the clang linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin13.0.2 dyld
+checking how to hardcode library paths into programs... immediate
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... yes
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether we are using the GNU C++ compiler... yes
+checking whether clang++ accepts -g... yes
+checking dependency style of clang++... none
+checking how to run the C++ preprocessor... clang++ -E
+checking for ld used by clang++... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking whether the clang++ linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking for clang++ option to produce PIC... -fno-common -DPIC
+checking if clang++ PIC flag -fno-common -DPIC works... yes
+checking if clang++ static flag -static works... no
+checking if clang++ supports -c -o file.o... yes
+checking if clang++ supports -c -o file.o... (cached) yes
+checking whether the clang++ linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin13.0.2 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether clang needs -traditional... no
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking machine/param.h usability... yes
+checking machine/param.h presence... yes
+checking for machine/param.h... yes
+checking mach-o/dyld.h usability... yes
+checking mach-o/dyld.h presence... yes
+checking for mach-o/dyld.h... yes
+checking process.h usability... no
+checking process.h presence... no
+checking for process.h... no
+checking sun_prefetch.h usability... no
+checking sun_prefetch.h presence... no
+checking for sun_prefetch.h... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for sys/types.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for C/C++ restrict keyword... __restrict
+checking for inline... inline
+checking whether byte ordering is bigendian... no
+checking for mode_t... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for long double with more range or precision than double... yes
+checking whether char is unsigned... no
+checking size of signed short... 2
+checking size of unsigned short... 2
+checking size of signed int... 4
+checking size of unsigned int... 4
+checking size of signed long... 8
+checking size of unsigned long... 8
+checking size of signed long long... 8
+checking size of unsigned long long... 8
+checking size of off_t... 8
+checking size of size_t... 8
+checking size of unsigned int*... 8
+checking return type of signal handlers... void
+checking for C compiler __func__ support... yes
+checking for signed 8-bit type... signed char
+checking for unsigned 8-bit type... unsigned char
+checking for signed 16-bit type... signed short
+checking for unsigned 16-bit type... unsigned short
+checking for signed 32-bit type... signed int
+checking for unsigned 32-bit type... unsigned int
+checking for signed 64-bit type... signed long
+checking for unsigned 64-bit type... unsigned long
+checking for unsigned maximum type... unsigned long
+checking for pointer difference type... unsigned long
+checking for size_t format specification... "l"
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap file i/o... yes
+checking for _aligned_malloc... no
+checking for atoll... yes
+checking for ctime_r... yes
+checking for _exit... yes
+checking for fcntl... yes
+checking for fstatvfs... yes
+checking for ftime... yes
+checking for getexecname... no
+checking for getc_unlocked... yes
+checking for getpagesize... (cached) yes
+checking for getrlimit... yes
+checking for getpid... yes
+checking for lltostr... no
+checking for localtime_r... yes
+checking for madvise... yes
+checking for mkstemp... yes
+checking for _NSGetExecutablePath... yes
+checking for _pclose... no
+checking for pclose... yes
+checking for poll... yes
+checking for _popen... no
+checking for popen... yes
+checking for posix_fadvise... no
+checking for posix_fallocate... no
+checking for posix_madvise... yes
+checking for posix_memalign... yes
+checking for posix_spawnp... yes
+checking for pread... yes
+checking for pwrite... yes
+checking for putc_unlocked... yes
+checking for raise... yes
+checking for rand_r... yes
+checking for readdir_r... yes
+checking for readlink... yes
+checking for realpath... yes
+checking for select... yes
+checking for seekdir... yes
+checking for setrlimit... yes
+checking for sigemptyset... yes
+checking for sigaction... yes
+checking for spawnvp... no
+checking for strerror... yes
+checking for strerror_r... yes
+checking for strlcat... yes
+checking for strlcpy... yes
+checking for strtoll... yes
+checking for sysconf... yes
+checking for tempnam... yes
+checking for tmpnam_r... no
+checking for times... yes
+checking for telldir... yes
+checking for ulltostr... no
+checking for vsprintf... yes
+checking for vsnprintf... yes
+checking for qsort_r... yes
+checking whether pread is declared... yes
+checking whether pwrite is declared... yes
+checking whether strlcpy is declared... yes
+checking whether vsnprintf is declared... yes
+checking for /dev/urandom... yes
+checking for sysctl... /usr/sbin/sysctl
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether clang++ accepts -g... (cached) yes
+checking dependency style of clang++... (cached) none
+checking whether the compiler recognizes bool as a built-in type... yes
+checking whether the compiler supports const_cast<>... yes
+checking whether the compiler supports default template parameters... yes
+checking whether the compiler supports exceptions... yes
+checking whether the compiler implements namespaces... yes
+checking whether the compiler supports the explicit keyword... yes
+checking whether the compiler supports ISO C++ standard library... yes
+checking whether the compiler supports Standard Template Library... yes
+checking whether the compiler supports ios::binary... yes
+checking whether the compiler supports the mutable keyword... yes
+checking whether the compiler accepts the new for scoping rules... yes
+checking whether the compiler supports static_cast<>... yes
+checking whether the compiler supports basic templates... yes
+checking for C++ compiler __func__ support... yes
+checking whether C++ compiler is sufficient for Magick++... yes
+checking for X11 configure files... 
+checking for the pthreads library -lpthread... yes
+checking for sqrt in -lm... yes
+checking for libltdl ... 
+checking ltdl.h usability... yes
+checking ltdl.h presence... yes
+checking for ltdl.h... yes
+checking for lt_dlinit in -lltdl... yes
+checking if libltdl package is complete... yes
+checking for ZLIB support ... 
+checking zconf.h usability... yes
+checking zconf.h presence... yes
+checking for zconf.h... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for compress in -lz... yes
+checking for uncompress in -lz... yes
+checking for deflate in -lz... yes
+checking for inflate in -lz... yes
+checking for gzseek in -lz... yes
+checking for gztell in -lz... yes
+checking if ZLIB package is complete... yes
+checking for BZLIB support ... 
+checking bzlib.h usability... yes
+checking bzlib.h presence... yes
+checking for bzlib.h... yes
+checking for BZ2_bzDecompress in -lbz2... yes
+checking if BZLIB package is complete... yes
+checking for LZMA support ... 
+checking lzma.h usability... no
+checking lzma.h presence... no
+checking for lzma.h... no
+checking for lzma_code in -llzma... yes
+checking if LZMA package is complete... no -- some components failed test
+checking for X... disabled
+checking for PNG support ... 
+checking png.h usability... yes
+checking png.h presence... yes
+checking for png.h... yes
+checking for LIBPNG17 support ... no
+checking for LIBPNG16 support ... no
+checking for LIBPNG15 support ... yes
+checking for png_get_io_ptr in -lpng15... yes
+checking for png_longjmp in -lpng15... yes
+checking if png15 package is complete... yes
+checking for JPEG support ... 
+checking jconfig.h usability... yes
+checking jconfig.h presence... yes
+checking for jconfig.h... yes
+checking jerror.h usability... yes
+checking jerror.h presence... yes
+checking for jerror.h... yes
+checking jmorecfg.h usability... yes
+checking jmorecfg.h presence... yes
+checking for jmorecfg.h... yes
+checking jpeglib.h usability... yes
+checking jpeglib.h presence... yes
+checking for jpeglib.h... yes
+checking for jpeg_read_header in -ljpeg... yes
+checking for JPEG library is version 6b or later... yes
+checking if JPEG package is complete... yes
+checking for JPEG version 2 support ... 
+checking jasper/jasper.h usability... no
+checking jasper/jasper.h presence... no
+checking for jasper/jasper.h... no
+checking for jas_stream_fopen in -ljasper... no
+checking if JPEG version 2 support package is complete... no
+checking for FreeType 2.0 ... 
+checking for freetype-config... /usr/local/opt/freetype/bin/freetype-config
+checking for FT_Init_FreeType in -lfreetype... yes
+checking ft2build.h usability... yes
+checking ft2build.h presence... yes
+checking for ft2build.h... yes
+checking for freetype/freetype.h... no
+checking if FreeType package is complete... no -- some components failed test
+checking for TIFF support ... 
+checking tiff.h usability... no
+checking tiff.h presence... no
+checking for tiff.h... no
+checking tiffio.h usability... no
+checking tiffio.h presence... no
+checking for tiffio.h... no
+checking for TIFFOpen in -ltiff... no
+checking for TIFFClientOpen in -ltiff... no
+checking for TIFFIsByteSwapped in -ltiff... no
+checking for TIFFReadRGBATile in -ltiff... no
+checking for TIFFReadRGBAStrip in -ltiff... no
+checking if TIFF package is complete... no
+checking for JBIG support ... 
+checking jbig.h usability... no
+checking jbig.h presence... no
+checking for jbig.h... no
+checking for jbg_dec_init in -ljbig... no
+checking if JBIG package is complete... no
+checking for XML support ... 
+checking for xml2-config... /usr/bin/xml2-config
+checking libxml/parser.h usability... yes
+checking libxml/parser.h presence... yes
+checking for libxml/parser.h... yes
+checking for xmlSAXVersion in -lxml2... yes
+checking for xmlParseChunk in -lxml2... yes
+checking for xmlCreatePushParserCtxt in -lxml2... yes
+checking if XML package is complete... yes
+checking for WMF support ... 
+checking for libwmf/ipa.h... no
+checking if WMF package is complete... no
+checking for autotrace... autotrace
+checking for bzip2... /usr/bin/bzip2
+checking for xdg-open... no
+checking for firefox... no
+checking for konqueror... no
+checking for google-chrome... no
+checking for mozilla... no
+checking for lynx... no
+checking for ralcgm... ralcgm
+checking for cat... /bin/cat
+checking for dcraw... dcraw
+checking for dot... dot
+checking for dvips... dvips
+checking for echo... /bin/echo
+checking for xterm... xterm
+checking for fig2dev... fig2dev
+checking for gm... gm
+checking for gnuplot... gnuplot
+checking for hp2xx... hp2xx
+checking for html2ps... html2ps
+checking for ilbmtoppm... ilbmtoppm
+checking for ppmtoilbm... ppmtoilbm
+checking for lp... /usr/bin/lp
+checking for lpr... /usr/bin/lpr
+checking for gimp... gimp
+checking for groff... /usr/bin/groff
+checking for mpeg2decode... mpeg2decode
+checking for mpeg2encode... mpeg2encode
+checking for mv... /bin/mv
+checking for pgpv... pgpv
+checking for povray... povray
+checking for gs... gs
+checking for ra_ppm... ra_ppm
+checking for rawtorle... rawtorle
+checking for rm... /bin/rm
+checking for scanimage... scanimage
+checking for enscript... enscript
+checking for wmf2eps... wmf2eps
+checking for wget... wget
+checking for gzip... /usr/bin/gzip
+checking for rst2html.py... no
+checking for rst2html... no
+checking for txt2html... no
+checking for Ghostscript fonts directory... /usr/local/share/ghostscript/fonts/
+checking for rpmbuild... no
+checking for rpm... no
+checking for 7za... no
+checking for zip... zip
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating GraphicsMagick.spec
+config.status: creating Magick++/bin/GraphicsMagick++-config
+config.status: creating Magick++/lib/GraphicsMagick++.pc
+config.status: creating Makefile
+config.status: creating PerlMagick/Magick.pm
+config.status: creating PerlMagick/Makefile.PL
+config.status: creating PerlMagick/PerlMagickCheck.sh
+config.status: creating config/delegates.mgk
+config.status: creating config/type-ghostscript.mgk
+config.status: creating config/type-solaris.mgk
+config.status: creating config/type-windows.mgk
+config.status: creating config/type.mgk
+config.status: creating magick/GraphicsMagick-config
+config.status: creating magick/GraphicsMagick.pc
+config.status: creating magick/magick_types.h
+config.status: creating magick/version.h
+config.status: creating common.shi
+config.status: creating rungm.sh
+config.status: creating wand/GraphicsMagickWand-config
+config.status: creating wand/GraphicsMagickWand.pc
+config.status: creating magick/magick_config.h
+config.status: creating magick/magick_config_api.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default commands
+config.status: executing GraphicsMagick++-config.in commands
+config.status: executing GraphicsMagick-config.in commands
+config.status: executing GraphicsMagickWand-config.in commands
+config.status: executing rungm.sh.in commands
+config.status: executing PerlMagick/PerlMagickCheck.sh.in commands
+
+GraphicsMagick is configured as follows. Please verify that this
+configuration matches your expectations.
+
+Host system type : x86_64-apple-darwin13.0.2
+Build system type : x86_64-apple-darwin13.0.2
+
+Option            Configure option           	Configured value
+-----------------------------------------------------------------
+Shared libraries  --enable-shared=yes    	yes
+Static libraries  --enable-static=no    	no
+GNU ld            --with-gnu-ld=no        	no
+Quantum depth     --with-quantum-depth=8 	8
+Modules           --with-modules=yes        	yes
+
+Delegate Configuration:
+BZLIB             --with-bzlib=yes          	yes
+DPS               --with-dps=yes              	no
+FlashPIX          --with-fpx=no              	no
+FreeType 2.0      --with-ttf=yes          	no (failed tests)
+Ghostscript       None                   	gs (unknown)
+Ghostscript fonts --with-gs-font-dir=/usr/local/share/ghostscript/fonts    /usr/local/share/ghostscript/fonts/
+Ghostscript lib   --with-gslib=no       	no
+JBIG              --with-jbig=yes        	no
+JPEG v1           --with-jpeg=yes        	yes
+JPEG-2000         --with-jp2=yes          	no
+LCMS v1           --with-lcms=no        	no
+LCMS v2           --with-lcms2=no        	no
+LZMA              --with-lzma=yes        	no (failed tests)
+Magick++          --with-magick-plus-plus=yes 	yes
+PERL              --with-perl=no            	no
+PNG               --with-png=yes          	yes (-lpng15)
+TIFF              --with-tiff=yes        	no
+TRIO              --with-trio=yes        	no
+Windows fonts     --with-windows-font-dir=	none
+WMF               --with-wmf=yes          	no
+X11               --with-x=no             	no
+XML               --with-xml=yes          	yes
+ZLIB              --with-zlib=yes        	yes
+
+X11 Configuration:
+
+  Not using X11.
+
+Options used to compile and link:
+  CC       = clang
+  CFLAGS   = -g -O2 -Wall -D_THREAD_SAFE
+  CPPFLAGS = -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libxml2
+  CXX      = clang++
+  CXXFLAGS = -D_THREAD_SAFE
+  DEFS     = -DHAVE_CONFIG_H
+  LDFLAGS  = -L/usr/local/Cellar/freetype/2.5.1/lib -L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
+  LIBS     = -lbz2 -lz -lltdl -lm -lpthread
+

@@ -1,0 +1,63 @@
+04/30/15 13:05:13:111 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | *********************** ADM Workflow start. Version: 1.0.0.14s **************************
+04/30/15 13:05:16:126 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274505 | *********************** ADM Workflow start. Version: 1.0.0.14s **************************
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | White listed URLs are
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | get.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | get2.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | aihdownload.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | admdownload.stage.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | admdownload.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | airdownload.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | ardownload.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | ardownload2.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | download.macromedia.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | fpdownload.macromedia.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | fpdownload2.macromedia.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | fpdownload.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | fpdownload2.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | platformdl.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | platformdl-stage.corp.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | wwwimages2.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | wwwimages.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | wwwimages.stage.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | wwwimages2.stage.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | dlmping.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | dlmping2.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | dlmping3.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | dlmping4.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | get3.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | get3.stage.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | adobetag.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | promotion.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | stats.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | sstats.adobe.com
+04/30/15 13:05:16:323 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | Actual OS locale:'en_US', OS locale for this instance:'en_US', ADM locale : en
+04/30/15 13:05:16:527 | [INFO] |  | ADM |  | WorkflowManager |  |  | 274549 | Complete ADM URL after encoding: https://get.adobe.com/reader/webservices/adm/?cname=AdobeReader_dc_en_ta_install.dmg&bname=Reader_dc&site=live&type=install&language=en
+04/30/15 13:05:17:236 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274550 | sc_code : RDR
+04/30/15 13:05:17:236 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274550 | ping : {"pagename":"ACDC_RDR_ADM_Launched","channel":"ACDC_Reader","prop1":"ADM","prop2":"ACDC Downloads","prop3":"get.adobe.com","prop4":"en_US","prop5":"en_US:ACDC_RDR_ADM_Launched","products":";Reader_ADM","eVar74":"","events":"event96","eVar73":"ACDC_Reader"}
+04/30/15 13:05:17:749 | [INFO] |  | ADM |  | WorkflowManager |  |  | 274550 | WorkflowManager.startPrechecks for product:Adobe Acrobat Reader DC isPreInstalled:false isDiskSpaceAvailable:true
+04/30/15 13:05:17:749 | [INFO] |  | ADM |  | WorkflowManager |  |  | 274550 | WorkflowManager.startPrechecks for product:Adobe Lightroom isPreInstalled:false isDiskSpaceAvailable:true
+04/30/15 13:05:30:936 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274576 | Installation started for package 'Adobe Acrobat Reader DC'
+04/30/15 13:05:33:101 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274531 | Message received : <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchParams>
+    <launchProcessGuid>13804706-1A38-40B0-B3ED-B43B77824D6F</launchProcessGuid>
+    <launchPath>/usr/sbin/installer</launchPath>
+    <arguments><argument>-pkg</argument>
+        <argument>/Users/mike/Library/Application Support/Adobe/.7527ED8D-2C57-46D0-8F27-B8735906D549/FF472752-006B-4CE9-B6E7-78DB45E10712/AcroRdrDC_1500720033_MUI.pkg</argument>
+        <argument>-target</argument>
+        <argument>/</argument>
+    </arguments>
+</launchParams>
+04/30/15 13:06:18:488 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274514 | Message received : <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchParams>
+    <launchProcessGuid>13804706-1A38-40B0-B3ED-B43B77824D6F</launchProcessGuid>
+    <errorCode>0</errorCode>
+    <returnCode>0</returnCode>
+</launchParams>
+04/30/15 13:06:18:489 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274514 | InstallAction::launchProcessCallbackFn : errorCode : 0, returnCode : 0
+04/30/15 13:06:18:691 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274576 | Installation completed for package 'Adobe Acrobat Reader DC' installerReturnCode:'0' installerErrorCode:'0'
+04/30/15 13:06:18:691 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274576 | Product installation successful 'Adobe Acrobat Reader DC'
+04/30/15 13:06:33:026 | [INFO] |  | ADM |  | ApplicationContext |  |  | 280141 | ping : {"pagename":"ACDC_RDR_ADM_Success_exitcode=0","channel":"ACDC_Reader","prop1":"ADM","prop2":"ACDC Downloads","prop3":"get.adobe.com","prop4":"en_US","prop5":"en_US:ACDC_RDR_ADM_Success_exitcode=0","products":";Reader_ADM","eVar74":"","events":"event95","eVar73":"ACDC_Reader"}
+04/30/15 13:06:33:118 | [ERROR] |  | ADM |  | ApplicationContext | IPCCommunications |  | 274531 | Error CB_PktID_Terminate
+04/30/15 13:06:33:118 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274505 | *********************** ADM Workflow end. Version: 1.0.0.14s **************************
+04/30/15 13:06:33:365 | [INFO] |  | ADM |  | ApplicationContext |  |  | 280141 | Start Application Detection Id
+04/30/15 13:06:33:449 | [INFO] |  | ADM |  | ApplicationContext |  |  | 274378 | *********************** ADM Workflow end. Version: 1.0.0.14s **************************

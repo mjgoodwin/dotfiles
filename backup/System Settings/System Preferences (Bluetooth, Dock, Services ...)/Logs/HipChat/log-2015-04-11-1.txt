@@ -1,0 +1,219 @@
+2015/04/11 16:56:55:400  [26161_github@conf.hipchat.com] Received presence from 26161_github@conf.hipchat.com/Konstantin Zub
+2015/04/11 16:56:55:401  [26161_continue@conf.hipchat.com] Received presence from 26161_continue@conf.hipchat.com/Konstantin Zub
+2015/04/11 16:56:55:401  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Konstantin Zub
+2015/04/11 16:56:55:417  HipChatFileLogger: Creating new log file: log-2015-04-11-1.txt
+2015/04/11 17:31:27:745  App activated - ordering primary window to the front.
+2015/04/11 17:31:27:771  Clearing unread count for jid: 26161_rollbar@conf.hipchat.com
+2015/04/11 17:31:27:772  Focusing current chat input
+2015/04/11 17:31:27:773  Focusing current chat input
+2015/04/11 17:36:33:001  XMPPReconnect onAppSleep:
+2015/04/11 17:36:33:006  Making API request: save_preferences
+2015/04/11 18:32:20:667  XMPPReconnect onAppWake:
+2015/04/11 18:32:25:863  XMPP Disconnected with error: Error Domain=GCDAsyncSocketErrorDomain Code=7 "Socket closed by remote peer" UserInfo=0x6000000797c0 {NSLocalizedDescription=Socket closed by remote peer}
+2015/04/11 18:32:25:864  Sending connect failed notice with code: 11 -- doReconnect: 1 -- msg: Failed to connect to the HipChat server
+2015/04/11 18:32:25:864  Deinitializing ChatViewController: 26161_github@conf.hipchat.com
+2015/04/11 18:32:25:864  Detected accidental disconnect
+2015/04/11 18:32:25:864  [26161_github@conf.hipchat.com] Deinitializing chat
+2015/04/11 18:32:25:864  Deinitializing ChatViewController
+2015/04/11 18:32:25:864  Deinitializing ChatViewController: 26161_communitylend@conf.hipchat.com
+2015/04/11 18:32:25:865  [26161_communitylend@conf.hipchat.com] Deinitializing chat
+2015/04/11 18:32:25:865  Deinitializing ChatViewController
+2015/04/11 18:32:25:865  Deinitializing ChatViewController: 26161_updates@conf.hipchat.com
+2015/04/11 18:32:25:865  [26161_updates@conf.hipchat.com] Deinitializing chat
+2015/04/11 18:32:25:865  Deinitializing ChatViewController
+2015/04/11 18:32:25:865  Deinitializing ChatViewController: 26161_rollbar@conf.hipchat.com
+2015/04/11 18:32:25:865  [26161_rollbar@conf.hipchat.com] Deinitializing chat
+2015/04/11 18:32:25:865  Deinitializing ChatViewController
+2015/04/11 18:32:25:865  Deinitializing ChatViewController: 26161_continue@conf.hipchat.com
+2015/04/11 18:32:25:865  [26161_continue@conf.hipchat.com] Deinitializing chat
+2015/04/11 18:32:25:865  Deinitializing ChatViewController
+2015/04/11 18:32:25:865  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:25:866  Showing flash message to user: <div><h3>Unable to connect</h3></br>Failed to connect to the HipChat server. <a href='action:reconnect'>Reconnect now.</a></div>
+2015/04/11 18:32:25:866  Deinitializing ChatViewController
+2015/04/11 18:32:25:866  Deinitializing ChatViewController
+2015/04/11 18:32:25:866  Deinitializing ChatViewController
+2015/04/11 18:32:25:866  Deinitializing ChatViewController
+2015/04/11 18:32:25:866  Deinitializing ChatViewController
+2015/04/11 18:32:25:866  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:25:972  Reachability flags: 0
+2015/04/11 18:32:25:972  host is unreachable, returning NO for shouldAttemptReconnect
+2015/04/11 18:32:25:973  Reachability flags: 0
+2015/04/11 18:32:25:973  host is unreachable, returning NO for shouldAttemptReconnect
+2015/04/11 18:32:26:055  Reachability flags: 2
+2015/04/11 18:32:26:055  AutoReconnect - Returning YES for shouldAttemptReconnect
+2015/04/11 18:32:26:467  Connecting to IP v4: 54.196.194.24:5222 -- v6: (null):0
+2015/04/11 18:32:26:509  -[HipChatApp xmppStreamDidStartNegotiation:] Stream negotiations started
+2015/04/11 18:32:26:645  Got XMPP Error: system-shutdown
+2015/04/11 18:32:26:645  Showing flash message to user: <div><h3>Unable to connect</h3></br>Failed to connect to the HipChat server. <a href='action:reconnect'>Reconnect now.</a></div>
+2015/04/11 18:32:26:645  XMPP Disconnected with error: Error Domain=GCDAsyncSocketErrorDomain Code=7 "Socket closed by remote peer" UserInfo=0x60800067a680 {NSLocalizedDescription=Socket closed by remote peer}
+2015/04/11 18:32:26:645  Detected accidental disconnect
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:26:650  Showing flash message to user: <div><h3>Unable to connect</h3></br>Failed to connect to the HipChat server. <a href='action:reconnect'>Reconnect now.</a></div>
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Deinitializing ChatViewController
+2015/04/11 18:32:26:650  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:28:563  Reachability flags: 2
+2015/04/11 18:32:28:563  AutoReconnect - Returning YES for shouldAttemptReconnect
+2015/04/11 18:32:28:565  Connecting to IP v4: 54.147.219.133:5222 -- v6: (null):0
+2015/04/11 18:32:28:602  -[HipChatApp xmppStreamDidStartNegotiation:] Stream negotiations started
+2015/04/11 18:32:28:689  XMPP Disconnected with error: Error Domain=GCDAsyncSocketErrorDomain Code=7 "Socket closed by remote peer" UserInfo=0x608000864100 {NSLocalizedDescription=Socket closed by remote peer}
+2015/04/11 18:32:28:689  Deinitializing ChatViewController
+2015/04/11 18:32:28:689  Deinitializing ChatViewController
+2015/04/11 18:32:28:689  Deinitializing ChatViewController
+2015/04/11 18:32:28:689  Deinitializing ChatViewController
+2015/04/11 18:32:28:689  Deinitializing ChatViewController
+2015/04/11 18:32:28:690  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:28:691  Detected accidental disconnect
+2015/04/11 18:32:28:691  Showing flash message to user: <div><h3>Unable to connect</h3></br>Failed to connect to the HipChat server. <a href='action:reconnect'>Reconnect now.</a></div>
+2015/04/11 18:32:28:691  Deinitializing ChatViewController
+2015/04/11 18:32:28:691  Deinitializing ChatViewController
+2015/04/11 18:32:28:691  Deinitializing ChatViewController
+2015/04/11 18:32:28:691  Deinitializing ChatViewController
+2015/04/11 18:32:28:691  Deinitializing ChatViewController
+2015/04/11 18:32:28:691  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:33:564  Reachability flags: 2
+2015/04/11 18:32:33:564  AutoReconnect - Returning YES for shouldAttemptReconnect
+2015/04/11 18:32:33:565  Connecting to IP v4: 54.147.219.133:5222 -- v6: (null):0
+2015/04/11 18:32:33:638  -[HipChatApp xmppStreamDidStartNegotiation:] Stream negotiations started
+2015/04/11 18:32:33:808  XMPP Disconnected with error: Error Domain=GCDAsyncSocketErrorDomain Code=7 "Socket closed by remote peer" UserInfo=0x600000c724c0 {NSLocalizedDescription=Socket closed by remote peer}
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Detected accidental disconnect
+2015/04/11 18:32:33:808  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:33:808  Showing flash message to user: <div><h3>Unable to connect</h3></br>Failed to connect to the HipChat server. <a href='action:reconnect'>Reconnect now.</a></div>
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Deinitializing ChatViewController
+2015/04/11 18:32:33:808  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:47:565  Reachability flags: 2
+2015/04/11 18:32:47:565  AutoReconnect - Returning YES for shouldAttemptReconnect
+2015/04/11 18:32:47:566  Connecting to IP v4: 54.227.145.147:5222 -- v6: (null):0
+2015/04/11 18:32:47:606  -[HipChatApp xmppStreamDidStartNegotiation:] Stream negotiations started
+2015/04/11 18:32:47:683  XMPP Disconnected with error: Error Domain=GCDAsyncSocketErrorDomain Code=7 "Socket closed by remote peer" UserInfo=0x608000a70480 {NSLocalizedDescription=Socket closed by remote peer}
+2015/04/11 18:32:47:683  Detected accidental disconnect
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Multicasting hipchatAppDisconnected
+2015/04/11 18:32:47:683  Showing flash message to user: <div><h3>Unable to connect</h3></br>Failed to connect to the HipChat server. <a href='action:reconnect'>Reconnect now.</a></div>
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Deinitializing ChatViewController
+2015/04/11 18:32:47:683  Multicasting hipchatAppDisconnected
+2015/04/11 18:33:01:566  Reachability flags: 2
+2015/04/11 18:33:01:566  AutoReconnect - Returning YES for shouldAttemptReconnect
+2015/04/11 18:33:01:567  Connecting to IP v4: 54.227.145.147:5222 -- v6: (null):0
+2015/04/11 18:33:01:604  -[HipChatApp xmppStreamDidStartNegotiation:] Stream negotiations started
+2015/04/11 18:33:01:926  -[HipChatApp xmppStreamDidConnect:] Stream negotiations complete, starting authentication
+2015/04/11 18:33:01:926  -[HipChatApp xmppAuthenticationHandler] Authenticating via saved email and password
+2015/04/11 18:33:07:010  Received didNotAuthenticate error: <failure xmlns="urn:ietf:params:xml:ns:xmpp-sasl"><not-authorized></not-authorized></failure>
+2015/04/11 18:33:07:010  Sending connect failed notice with code: 1 -- doReconnect: 0 -- msg: Could not authenticate with the server. Please check your email and password and try again.
+2015/04/11 18:33:07:011  Connect failed - not trying to reconnect - not showing disconnect notice
+2015/04/11 18:33:07:011  XMPP Disconnected with error: Error Domain=GCDAsyncSocketErrorDomain Code=7 "Socket closed by remote peer" UserInfo=0x600000a73280 {NSLocalizedDescription=Socket closed by remote peer}
+2015/04/11 18:33:07:012  Detected accidental disconnect
+2015/04/11 18:33:07:013  Reachability flags: 2
+2015/04/11 18:33:07:013  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:33:07:023  Hiding window: MainWindowController
+2015/04/11 18:33:07:031  Showing window: LoginWindowController - orderFront: NO
+2015/04/11 18:33:07:032  Connect failure: Error Domain=HipChatErrorDomain Code=1 "Could not authenticate with the server. Please check your email and password and try again." UserInfo=0x600000a73740 {NSLocalizedDescription=Could not authenticate with the server. Please check your email and password and try again.}
+2015/04/11 18:33:07:032  Showing login error message: Could not authenticate with the server. Please check your email and password and try again.
+2015/04/11 18:33:07:049  Updating login form credentials to current stored values
+2015/04/11 18:33:07:050  Retrieving password for email: mgoodwin@financeit.io and service: chat.hipchat.com
+2015/04/11 18:33:07:055  Deinitializing ChatViewController
+2015/04/11 18:33:07:055  Deinitializing ChatViewController
+2015/04/11 18:33:07:055  Deinitializing ChatViewController
+2015/04/11 18:33:07:055  Deinitializing ChatViewController
+2015/04/11 18:33:07:055  Deinitializing ChatViewController
+2015/04/11 18:33:07:055  Multicasting hipchatAppDisconnected
+2015/04/11 18:33:07:055  Connect failed - not trying to reconnect - not showing disconnect notice
+2015/04/11 18:33:07:055  Hiding window: MainWindowController
+2015/04/11 18:33:07:056  Showing window: LoginWindowController - orderFront: NO
+2015/04/11 18:33:07:056  Connect failure: Error Domain=HipChatErrorDomain Code=1 "Could not authenticate with the server. Please check your email and password and try again." UserInfo=0x600000a73740 {NSLocalizedDescription=Could not authenticate with the server. Please check your email and password and try again.}
+2015/04/11 18:33:07:056  Showing login error message: Could not authenticate with the server. Please check your email and password and try again.
+2015/04/11 18:33:07:056  Updating login form credentials to current stored values
+2015/04/11 18:33:07:058  Deinitializing ChatViewController
+2015/04/11 18:33:07:058  Deinitializing ChatViewController
+2015/04/11 18:33:07:058  Deinitializing ChatViewController
+2015/04/11 18:33:07:058  Deinitializing ChatViewController
+2015/04/11 18:33:07:058  Deinitializing ChatViewController
+2015/04/11 18:33:07:058  Multicasting hipchatAppDisconnected
+2015/04/11 18:33:07:516  Clearing all user-specific data
+2015/04/11 18:33:07:567  Clearing all rooms from RoomList.
+2015/04/11 18:33:07:571  [26161_github@conf.hipchat.com] Closing chat
+2015/04/11 18:33:07:571  [26161_github@conf.hipchat.com] Deallocating Chat
+2015/04/11 18:33:07:571  [26161_communitylend@conf.hipchat.com] Closing chat
+2015/04/11 18:33:07:571  [26161_communitylend@conf.hipchat.com] Deallocating Chat
+2015/04/11 18:33:07:571  [26161_updates@conf.hipchat.com] Closing chat
+2015/04/11 18:33:07:571  [26161_updates@conf.hipchat.com] Deallocating Chat
+2015/04/11 18:33:07:571  [26161_rollbar@conf.hipchat.com] Closing chat
+2015/04/11 18:33:07:571  [26161_rollbar@conf.hipchat.com] Deallocating Chat
+2015/04/11 18:33:07:571  [26161_continue@conf.hipchat.com] Closing chat
+2015/04/11 18:33:07:571  [26161_continue@conf.hipchat.com] Deallocating Chat
+2015/04/11 18:33:07:571  Clearing unread count for jid: (null)
+2015/04/11 18:33:07:571  Deallocating CVC: 26161_communitylend@conf.hipchat.com
+2015/04/11 18:33:07:571  Disconnecting...
+2015/04/11 18:33:07:572  Deallocating CVC: 26161_updates@conf.hipchat.com
+2015/04/11 18:33:07:572  Clearing all user-specific data
+2015/04/11 18:33:07:573  Clearing all rooms from RoomList.
+2015/04/11 18:33:07:573  Clearing unread count for jid: (null)
+2015/04/11 18:33:07:573  Disconnecting...
+2015/04/11 18:33:07:579  Deallocating CVC: 26161_github@conf.hipchat.com
+2015/04/11 18:33:07:585  Multicasting hipchatAppDisconnected
+2015/04/11 18:33:07:585  Multicasting hipchatAppDisconnected
+2015/04/11 18:33:07:585  Deallocating CVC: 26161_continue@conf.hipchat.com
+2015/04/11 18:33:07:586  Deallocating CVC: 26161_rollbar@conf.hipchat.com
+2015/04/11 18:33:10:140  Reachability flags: 2
+2015/04/11 18:33:10:140  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:33:16:075  Reachability flags: 2
+2015/04/11 18:33:16:076  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:33:21:405  Reachability flags: 2
+2015/04/11 18:33:21:405  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:33:37:343  Reachability flags: 2
+2015/04/11 18:33:37:343  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:33:43:340  Reachability flags: 2
+2015/04/11 18:33:43:340  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:33:59:342  Reachability flags: 2
+2015/04/11 18:33:59:342  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:34:11:343  Reachability flags: 2
+2015/04/11 18:34:11:343  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:34:16:343  Reachability flags: 2
+2015/04/11 18:34:16:343  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:34:28:343  Reachability flags: 2
+2015/04/11 18:34:28:344  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:34:58:345  Reachability flags: 2
+2015/04/11 18:34:58:345  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:35:35:239  Reachability flags: 2
+2015/04/11 18:35:35:239  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:36:15:241  Reachability flags: 2
+2015/04/11 18:36:15:241  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:36:51:243  Reachability flags: 2
+2015/04/11 18:36:51:243  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:37:45:406  Reachability flags: 2
+2015/04/11 18:37:45:406  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:38:50:408  Reachability flags: 2
+2015/04/11 18:38:50:409  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:39:14:409  Reachability flags: 2
+2015/04/11 18:39:14:409  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:40:53:391  Reachability flags: 2
+2015/04/11 18:40:53:391  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:41:38:392  Reachability flags: 2
+2015/04/11 18:41:38:392  AutoReconnect - Returning NO for shouldAttemptReconnect
+2015/04/11 18:42:01:335  App was activated with no primary window visible. Showing last activated window...
+2015/04/11 18:42:06:829  Auth token not available for API request - queueing... save_preferences

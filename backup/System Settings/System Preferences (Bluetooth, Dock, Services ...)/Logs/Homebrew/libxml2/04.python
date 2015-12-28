@@ -1,0 +1,115 @@
+/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/distutils/dist.py:251: UserWarning: 'licence' distribution option is deprecated; use 'license'
+  warnings.warn(msg)
+libxslt stub generator not found, libxslt not built
+running install
+running build
+running build_py
+creating build
+creating build/lib.macosx-10.9-intel-2.7
+copying libxml2.py -> build/lib.macosx-10.9-intel-2.7
+copying drv_libxml2.py -> build/lib.macosx-10.9-intel-2.7
+running build_ext
+building 'libxml2mod' extension
+creating build/temp.macosx-10.9-intel-2.7
+clang -fno-strict-aliasing -fno-common -dynamic -arch x86_64 -arch i386 -g -Os -pipe -fno-common -fno-strict-aliasing -fwrapv -mno-fused-madd -DENABLE_DTRACE -DMACOSX -DNDEBUG -Wall -Wstrict-prototypes -Wshorten-64-to-32 -DNDEBUG -g -fwrapv -Os -Wall -Wstrict-prototypes -DENABLE_DTRACE -arch x86_64 -arch i386 -pipe -D_REENTRANT=1 -I/usr/local/Cellar/libxml2/2.9.1/include/libxml2 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c libxml2-py.c -o build/temp.macosx-10.9-intel-2.7/libxml2-py.o
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+clang -fno-strict-aliasing -fno-common -dynamic -arch x86_64 -arch i386 -g -Os -pipe -fno-common -fno-strict-aliasing -fwrapv -mno-fused-madd -DENABLE_DTRACE -DMACOSX -DNDEBUG -Wall -Wstrict-prototypes -Wshorten-64-to-32 -DNDEBUG -g -fwrapv -Os -Wall -Wstrict-prototypes -DENABLE_DTRACE -arch x86_64 -arch i386 -pipe -D_REENTRANT=1 -I/usr/local/Cellar/libxml2/2.9.1/include/libxml2 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c libxml.c -o build/temp.macosx-10.9-intel-2.7/libxml.o
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+libxml.c:294:12: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+        lenread = PyBytes_Size(ret);
+                ~ ^~~~~~~~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/bytesobject.h:15:22: note: expanded from macro 'PyBytes_Size'
+#define PyBytes_Size PyString_Size
+                     ^
+libxml.c:314:12: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+        lenread = PyBytes_Size(b);
+                ~ ^~~~~~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/bytesobject.h:15:22: note: expanded from macro 'PyBytes_Size'
+#define PyBytes_Size PyString_Size
+                     ^
+libxml.c:359:12: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+        lenread = PyBytes_Size(ret);
+                ~ ^~~~~~~~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/bytesobject.h:15:22: note: expanded from macro 'PyBytes_Size'
+#define PyBytes_Size PyString_Size
+                     ^
+libxml.c:379:12: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+        lenread = PyBytes_Size(b);
+                ~ ^~~~~~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/bytesobject.h:15:22: note: expanded from macro 'PyBytes_Size'
+#define PyBytes_Size PyString_Size
+                     ^
+libxml.c:3517:27: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+                        ? PyTuple_GET_SIZE(py_nodeset)
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/tupleobject.h:51:33: note: expanded from macro 'PyTuple_GET_SIZE'
+#define PyTuple_GET_SIZE(op)    Py_SIZE(op)
+                                ^~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/object.h:116:56: note: expanded from macro 'Py_SIZE'
+#define Py_SIZE(ob)             (((PyVarObject*)(ob))->ob_size)
+                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+libxml.c:3518:27: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+                        : PyList_GET_SIZE(py_nodeset));
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/listobject.h:63:32: note: expanded from macro 'PyList_GET_SIZE'
+#define PyList_GET_SIZE(op)    Py_SIZE(op)
+                               ^~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/object.h:116:56: note: expanded from macro 'Py_SIZE'
+#define Py_SIZE(ob)             (((PyVarObject*)(ob))->ob_size)
+                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+libxml.c:3571:16: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+             ? PyTuple_GET_SIZE(py_strings)
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/tupleobject.h:51:33: note: expanded from macro 'PyTuple_GET_SIZE'
+#define PyTuple_GET_SIZE(op)    Py_SIZE(op)
+                                ^~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/object.h:116:56: note: expanded from macro 'Py_SIZE'
+#define Py_SIZE(ob)             (((PyVarObject*)(ob))->ob_size)
+                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+libxml.c:3572:16: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+             : PyList_GET_SIZE(py_strings));
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/listobject.h:63:32: note: expanded from macro 'PyList_GET_SIZE'
+#define PyList_GET_SIZE(op)    Py_SIZE(op)
+                               ^~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/object.h:116:56: note: expanded from macro 'Py_SIZE'
+#define Py_SIZE(ob)             (((PyVarObject*)(ob))->ob_size)
+                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+8 warnings generated.
+clang -fno-strict-aliasing -fno-common -dynamic -arch x86_64 -arch i386 -g -Os -pipe -fno-common -fno-strict-aliasing -fwrapv -mno-fused-madd -DENABLE_DTRACE -DMACOSX -DNDEBUG -Wall -Wstrict-prototypes -Wshorten-64-to-32 -DNDEBUG -g -fwrapv -Os -Wall -Wstrict-prototypes -DENABLE_DTRACE -arch x86_64 -arch i386 -pipe -D_REENTRANT=1 -I/usr/local/Cellar/libxml2/2.9.1/include/libxml2 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c types.c -o build/temp.macosx-10.9-intel-2.7/types.o
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+types.c:629:26: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+                         PyBytes_GET_SIZE(obj));
+                         ^
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/bytesobject.h:8:26: note: expanded from macro 'PyBytes_GET_SIZE'
+#define PyBytes_GET_SIZE PyString_GET_SIZE
+                         ^
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/stringobject.h:92:32: note: expanded from macro 'PyString_GET_SIZE'
+#define PyString_GET_SIZE(op)  Py_SIZE(op)
+                               ^~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/object.h:116:56: note: expanded from macro 'Py_SIZE'
+#define Py_SIZE(ob)             (((PyVarObject*)(ob))->ob_size)
+                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+types.c:649:9: warning: implicit conversion loses integer precision: 'Py_ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
+                             PyBytes_GET_SIZE(b));
+                             ^
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/bytesobject.h:8:26: note: expanded from macro 'PyBytes_GET_SIZE'
+#define PyBytes_GET_SIZE PyString_GET_SIZE
+                         ^
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/stringobject.h:92:32: note: expanded from macro 'PyString_GET_SIZE'
+#define PyString_GET_SIZE(op)  Py_SIZE(op)
+                               ^~~~~~~~~~~
+/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/object.h:116:56: note: expanded from macro 'Py_SIZE'
+#define Py_SIZE(ob)             (((PyVarObject*)(ob))->ob_size)
+                                 ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+2 warnings generated.
+cc -bundle -undefined dynamic_lookup -arch x86_64 -arch i386 -Wl,-F. build/temp.macosx-10.9-intel-2.7/libxml2-py.o build/temp.macosx-10.9-intel-2.7/libxml.o build/temp.macosx-10.9-intel-2.7/types.o -L/usr/local/Cellar/libxml2/2.9.1/lib -lxml2 -lm -lz -o build/lib.macosx-10.9-intel-2.7/libxml2mod.so
+ld: warning: ignoring file /usr/local/Cellar/libxml2/2.9.1/lib/libxml2.dylib, file was built for x86_64 which is not the architecture being linked (i386): /usr/local/Cellar/libxml2/2.9.1/lib/libxml2.dylib
+running install_lib
+copying build/lib.macosx-10.9-intel-2.7/drv_libxml2.py -> /usr/local/Cellar/libxml2/2.9.1/lib/python2.7/site-packages
+copying build/lib.macosx-10.9-intel-2.7/libxml2.py -> /usr/local/Cellar/libxml2/2.9.1/lib/python2.7/site-packages
+copying build/lib.macosx-10.9-intel-2.7/libxml2mod.so -> /usr/local/Cellar/libxml2/2.9.1/lib/python2.7/site-packages
+byte-compiling /usr/local/Cellar/libxml2/2.9.1/lib/python2.7/site-packages/drv_libxml2.py to drv_libxml2.pyc
+byte-compiling /usr/local/Cellar/libxml2/2.9.1/lib/python2.7/site-packages/libxml2.py to libxml2.pyc
+running install_egg_info
+Writing /usr/local/Cellar/libxml2/2.9.1/lib/python2.7/site-packages/libxml2_python-2.9.1-py2.7.egg-info

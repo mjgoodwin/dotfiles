@@ -1,0 +1,4 @@
+configure.ac:2: installing './compile'
+configure.ac:6: installing './install-sh'
+configure.ac:6: installing './missing'
+Makefile.am: installing './depcomp'

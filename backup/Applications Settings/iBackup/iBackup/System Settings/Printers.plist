@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Printers</string>
+	<string>0.1</string>
+	<string>~/Library/Printers</string>
+	<string>~/Library/Preferences/com.apple.print.custompresets.plist</string>
+	<string>~/Library/Preferences/com.apple.print.PrintCenter.plist</string>
+</array>
+</plist>

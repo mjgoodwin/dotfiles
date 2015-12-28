@@ -1,0 +1,1180 @@
+2015/05/28 13:56:11:361  Reconnect delay set to 2. Minimum reconnect interval set to 5
+2015/05/28 13:56:11:372  HipChatFileLogger: Creating new log file: log-2015-05-28-1.txt
+2015/05/28 13:56:11:694  Showing window: LoginWindowController - orderFront: YES
+2015/05/28 13:56:11:798  Updating login form credentials to current stored values
+2015/05/28 13:56:11:798  Retrieving password for email: mgoodwin@financeit.io and service: chat.hipchat.com
+2015/05/28 13:56:11:870  Retrieving password for email: mgoodwin@financeit.io and service: chat.hipchat.com
+2015/05/28 13:56:11:883  Updating login form credentials to current stored values
+2015/05/28 13:56:11:884  Connecting with email mgoodwin@financeit.io
+2015/05/28 13:56:11:884  Set connectHost to chat-main.hipchat.com
+2015/05/28 13:56:11:884  User information set - initiating connection
+2015/05/28 13:56:11:884  Connect returned success - waiting for response...
+2015/05/28 13:56:11:913  Connecting to IP v4: 184.72.164.204:5222 -- v6: (null):0
+2015/05/28 13:56:11:941  -[HipChatApp xmppStreamDidStartNegotiation:] Stream negotiations started
+2015/05/28 13:56:12:345  -[HipChatApp xmppStreamDidConnect:] Stream negotiations complete, starting authentication
+2015/05/28 13:56:12:345  -[HipChatApp xmppAuthenticationHandler] Authenticating via saved email and password
+2015/05/28 13:56:12:404  Hiding window: LoginWindowController
+2015/05/28 13:56:12:405  Storing sign in email and password
+2015/05/28 13:56:12:405  Storing password for email: mgoodwin@financeit.io and service: chat-main.hipchat.com
+2015/05/28 13:56:12:408  Showing window: MainWindowController - orderFront: YES
+2015/05/28 13:56:12:588  Loaded cached data from store: /Users/mike/Library/HipChat/mgoodwin@financeit.io/roster-store.json
+2015/05/28 13:56:12:592  Loading emoticons from persistent store and adding to Linkify
+2015/05/28 13:56:12:660  Loaded cached data from store: /Users/mike/Library/HipChat/mgoodwin@financeit.io/emoticons-store.json
+2015/05/28 13:56:12:668  Roster finished loading - populating display names with 78 users
+2015/05/28 13:56:12:672  Cached users...marking roster loaded in HipChatApp
+2015/05/28 13:56:12:674  Checking fully loaded...
+2015/05/28 13:56:12:674  Not yet fully loaded - not triggering fullyLoaded event
+2015/05/28 13:56:12:674  Got response for startup info
+2015/05/28 13:56:12:674  Received group invite url from startup IQ: https://www.hipchat.com/invite/26161/9ef20028343703da1e2432ac571b163a
+2015/05/28 13:56:12:674  Setting current user's name to Michael Goodwin
+2015/05/28 13:56:12:674  Push enabled for room_invite? YES
+2015/05/28 13:56:12:675  Push enabled for oto_call? YES
+2015/05/28 13:56:12:675  Push enabled for group_invite_requested? NO
+2015/05/28 13:56:12:675  Push enabled for oto_message? YES
+2015/05/28 13:56:12:675  Push enabled for mention? YES
+2015/05/28 13:56:12:675  Push enabled for newsletter? NO
+2015/05/28 13:56:12:676  Setting shared cookies for auto-login functionality
+2015/05/28 13:56:12:677  Checking fully loaded...
+2015/05/28 13:56:12:677  Not yet fully loaded - not triggering fullyLoaded event
+2015/05/28 13:56:12:677  Loaded enough to run autojoin - calling autoJoinChats
+2015/05/28 13:56:12:687  All required data loaded - auto-joining chats
+2015/05/28 13:56:12:687  Stored jidToFocus is in autojoin chats - setting as focus: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:12:687  Focusing jidToFocus: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:12:687  Loading room list and presence data
+2015/05/28 13:56:12:709  Loaded cached data from store: /Users/mike/Library/HipChat/mgoodwin@financeit.io/roomList-store.json
+2015/05/28 13:56:12:711  Received roomListLoaded event - marking room list loaded
+2015/05/28 13:56:12:712  Checking fully loaded...
+2015/05/28 13:56:12:712  Not yet fully loaded - not triggering fullyLoaded event
+2015/05/28 13:56:12:712  Loaded enough to run autojoin - calling autoJoinChats
+2015/05/28 13:56:12:712  doAutoJoin not set - not auto-joining chats
+2015/05/28 13:56:12:725  Saved cached data to store: /Users/mike/Library/HipChat/mgoodwin@financeit.io/roster-store.json
+2015/05/28 13:56:12:725  Going through 0 early presences
+2015/05/28 13:56:12:725  Received roster response - triggering rosterFinishedLoading event
+2015/05/28 13:56:12:726  Got roster push - updating roster version and local caches
+2015/05/28 13:56:12:727  Roster finished loading - populating display names with 80 users
+2015/05/28 13:56:12:727  Cached users...marking roster loaded in HipChatApp
+2015/05/28 13:56:12:728  Checking fully loaded...
+2015/05/28 13:56:12:728  Not yet fully loaded - not triggering fullyLoaded event
+2015/05/28 13:56:12:728  Loaded enough to run autojoin - calling autoJoinChats
+2015/05/28 13:56:12:728  doAutoJoin not set - not auto-joining chats
+2015/05/28 13:56:12:805  Got response for get_emoticons
+2015/05/28 13:56:12:806  Saved emoticon version to prefs: 2015-05-27T13:07:40Z
+2015/05/28 13:56:12:813  Pruning 4 emoticons that no longer exist...
+2015/05/28 13:56:12:820  Saved cached data to store: /Users/mike/Library/HipChat/mgoodwin@financeit.io/emoticons-store.json
+2015/05/28 13:56:12:835  Found 1 rooms to remove - calling removeRoom on each...
+2015/05/28 13:56:12:835  Removing room from room list: 26161_approvals_ambuguity@conf.hipchat.com
+2015/05/28 13:56:12:839  Saved cached data to store: /Users/mike/Library/HipChat/mgoodwin@financeit.io/roomList-store.json
+2015/05/28 13:56:12:840  Received roomListLoaded event - marking room list loaded
+2015/05/28 13:56:12:840  Checking fully loaded...
+2015/05/28 13:56:12:840  Not yet fully loaded - not triggering fullyLoaded event
+2015/05/28 13:56:12:840  Loaded enough to run autojoin - calling autoJoinChats
+2015/05/28 13:56:12:840  doAutoJoin not set - not auto-joining chats
+2015/05/28 13:56:12:871  Received presence response - triggering presenceFinishedLoading event
+2015/05/28 13:56:13:344  NewChatDebug-Not showing new chat instruction popover. Reason - didShowAlready:0, isUpgradedUser:0
+2015/05/28 13:56:13:348  Clearing unread count for jid: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:551  Received emoticonListLoaded event - marking emoticon list loaded
+2015/05/28 13:56:13:551  Checking fully loaded...
+2015/05/28 13:56:13:551  Triggering hipChatAppFullyLoaded event - emoticons, roomList, roster, and user loaded
+2015/05/28 13:56:13:551  Loaded enough to run autojoin - calling autoJoinChats
+2015/05/28 13:56:13:551  doAutoJoin not set - not auto-joining chats
+2015/05/28 13:56:13:551  Joining chat: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:551  Removing chat from closed chats: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:584  [26161_communitylend@conf.hipchat.com] Initializing chat
+2015/05/28 13:56:13:584  [26161_communitylend@conf.hipchat.com] App fully loaded - joining room / checking for load history
+2015/05/28 13:56:13:584  [26161_communitylend@conf.hipchat.com] Loading history for chat
+2015/05/28 13:56:13:585  Making API request: save_preferences
+2015/05/28 13:56:13:586  Joining chat: 26161_github@conf.hipchat.com
+2015/05/28 13:56:13:586  Removing chat from closed chats: 26161_github@conf.hipchat.com
+2015/05/28 13:56:13:586  [26161_github@conf.hipchat.com] Initializing chat
+2015/05/28 13:56:13:586  [26161_github@conf.hipchat.com] App fully loaded - joining room / checking for load history
+2015/05/28 13:56:13:586  [26161_github@conf.hipchat.com] Loading history for chat
+2015/05/28 13:56:13:586  Joining chat: 26161_rollbar@conf.hipchat.com
+2015/05/28 13:56:13:587  Removing chat from closed chats: 26161_rollbar@conf.hipchat.com
+2015/05/28 13:56:13:587  [26161_rollbar@conf.hipchat.com] Initializing chat
+2015/05/28 13:56:13:587  [26161_rollbar@conf.hipchat.com] App fully loaded - joining room / checking for load history
+2015/05/28 13:56:13:587  [26161_rollbar@conf.hipchat.com] Loading history for chat
+2015/05/28 13:56:13:587  Joining chat: 26161_updates@conf.hipchat.com
+2015/05/28 13:56:13:587  Removing chat from closed chats: 26161_updates@conf.hipchat.com
+2015/05/28 13:56:13:587  [26161_updates@conf.hipchat.com] Initializing chat
+2015/05/28 13:56:13:587  [26161_updates@conf.hipchat.com] App fully loaded - joining room / checking for load history
+2015/05/28 13:56:13:587  [26161_updates@conf.hipchat.com] Loading history for chat
+2015/05/28 13:56:13:588  Joining chat: 26161_continue@conf.hipchat.com
+2015/05/28 13:56:13:588  Removing chat from closed chats: 26161_continue@conf.hipchat.com
+2015/05/28 13:56:13:588  [26161_continue@conf.hipchat.com] Initializing chat
+2015/05/28 13:56:13:588  [26161_continue@conf.hipchat.com] App fully loaded - joining room / checking for load history
+2015/05/28 13:56:13:588  [26161_continue@conf.hipchat.com] Loading history for chat
+2015/05/28 13:56:13:588  Joining chat: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:13:588  Removing chat from closed chats: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:13:588  [26161_300565@chat.hipchat.com] Initializing chat
+2015/05/28 13:56:13:588  [26161_300565@chat.hipchat.com] App fully loaded - joining room / checking for load history
+2015/05/28 13:56:13:588  Joining chat: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:13:588  Removing chat from closed chats: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:13:588  [26161_570127@chat.hipchat.com] Initializing chat
+2015/05/28 13:56:13:589  [26161_570127@chat.hipchat.com] App fully loaded - joining room / checking for load history
+2015/05/28 13:56:13:589  Joining chat: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:13:589  Removing chat from closed chats: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:13:589  [26161_2019734@chat.hipchat.com] Initializing chat
+2015/05/28 13:56:13:589  [26161_2019734@chat.hipchat.com] App fully loaded - joining room / checking for load history
+2015/05/28 13:56:13:589  Joining chat: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:589  Chat is active: 26161_communitylend@conf.hipchat.com - doFocus: YES
+2015/05/28 13:56:13:589  Focusing chat with jid: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:589  Clearing unread count for jid: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:589  Refreshing tab list
+2015/05/28 13:56:13:590  Tab selection changed -- new index: 0, new jid: (null)
+2015/05/28 13:56:13:590  Tab selection changed -- new index: 1, new jid: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:591  Focusing chat with jid: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:591  Clearing unread count for jid: 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:591  Received emoticonListLoaded event - marking emoticon list loaded
+2015/05/28 13:56:13:591  Checking fully loaded...
+2015/05/28 13:56:13:591  Already fully loaded - not triggering fullyLoaded again
+2015/05/28 13:56:13:591  Updating roster entries for jid 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:581  Saved cached data to store: /Users/mike/Library/HipChat/mgoodwin@financeit.io/emoticons-store.json
+2015/05/28 13:56:13:629  Saved cached data to store: /Users/mike/Library/HipChat/mgoodwin@financeit.io/emoticons-store.json
+2015/05/28 13:56:13:659  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Clara Mendez
+2015/05/28 13:56:13:660  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Sandrine Dos Santos
+2015/05/28 13:56:13:661  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Elan Dubrofsky
+2015/05/28 13:56:13:661  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Risto Juola
+2015/05/28 13:56:13:662  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Alfred Lau
+2015/05/28 13:56:13:662  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Marissa MacLellan
+2015/05/28 13:56:13:663  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Jonas Dizon
+2015/05/28 13:56:13:663  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Lee Zwaigen
+2015/05/28 13:56:13:664  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Archana Rajan
+2015/05/28 13:56:13:664  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:665  Room roster loaded for 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:671  [26161_github@conf.hipchat.com] Received presence from 26161_github@conf.hipchat.com/Alfred Lau
+2015/05/28 13:56:13:672  [26161_github@conf.hipchat.com] Received presence from 26161_github@conf.hipchat.com/Marissa MacLellan
+2015/05/28 13:56:13:672  [26161_github@conf.hipchat.com] Received presence from 26161_github@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:673  Room roster loaded for 26161_github@conf.hipchat.com
+2015/05/28 13:56:13:673  [26161_rollbar@conf.hipchat.com] Received presence from 26161_rollbar@conf.hipchat.com/Marissa MacLellan
+2015/05/28 13:56:13:674  [26161_rollbar@conf.hipchat.com] Received presence from 26161_rollbar@conf.hipchat.com/Archana Rajan
+2015/05/28 13:56:13:675  [26161_rollbar@conf.hipchat.com] Received presence from 26161_rollbar@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:675  Room roster loaded for 26161_rollbar@conf.hipchat.com
+2015/05/28 13:56:13:676  [26161_continue@conf.hipchat.com] Received presence from 26161_continue@conf.hipchat.com/Risto Juola
+2015/05/28 13:56:13:678  Tried to add tab to list that already exists - ignoring...
+2015/05/28 13:56:13:678  Tried to add tab to list that already exists - ignoring...
+2015/05/28 13:56:13:679  Tried to add tab to list that already exists - ignoring...
+2015/05/28 13:56:13:679  Tried to add tab to list that already exists - ignoring...
+2015/05/28 13:56:13:679  Tried to add tab to list that already exists - ignoring...
+2015/05/28 13:56:13:679  Tried to add tab to list that already exists - ignoring...
+2015/05/28 13:56:13:679  Tried to add tab to list that already exists - ignoring...
+2015/05/28 13:56:13:679  Tried to add tab to list that already exists - ignoring...
+2015/05/28 13:56:13:686  [26161_continue@conf.hipchat.com] Received presence from 26161_continue@conf.hipchat.com/Alfred Lau
+2015/05/28 13:56:13:687  [26161_continue@conf.hipchat.com] Received presence from 26161_continue@conf.hipchat.com/Marissa MacLellan
+2015/05/28 13:56:13:688  [26161_continue@conf.hipchat.com] Received presence from 26161_continue@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:688  Room roster loaded for 26161_continue@conf.hipchat.com
+2015/05/28 13:56:13:700  Asked for jid for unavailable nickname: Rollbar
+2015/05/28 13:56:13:701  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:701  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:702  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:702  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:703  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:703  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:704  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:704  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:704  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:705  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:705  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:705  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:706  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:707  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:707  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:708  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:708  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:708  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:710  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:710  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:711  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:712  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:724  Updating room header display for room Tech
+2015/05/28 13:56:13:727  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:727  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:729  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:730  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:731  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:731  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:732  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:732  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:734  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:734  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:734  Updating roster entries for jid 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:734  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:734  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:735  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:735  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:735  Updating room header display for room Tech
+2015/05/28 13:56:13:735  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:735  Updating roster entries for jid 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:736  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:736  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:736  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:736  Updating roster entries for jid 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:736  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:737  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:737  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:737  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:738  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:738  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:738  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:738  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:739  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:739  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:739  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:739  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:740  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:740  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:740  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:740  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:741  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:741  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:741  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:742  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:742  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:742  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:742  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:743  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:754  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:755  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:756  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:756  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:757  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:758  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:759  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:759  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:760  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:760  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:761  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:761  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:762  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:762  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:762  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:763  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:764  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:765  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:765  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:766  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:767  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:768  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:769  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:770  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:770  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:771  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:771  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:772  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:773  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:773  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:774  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:775  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:775  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:776  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:776  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:776  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:777  [26161_rollbar@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:777  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Clara Mendez
+2015/05/28 13:56:13:778  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Sandrine Dos Santos
+2015/05/28 13:56:13:779  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Morgan Perabo
+2015/05/28 13:56:13:781  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Risto Juola
+2015/05/28 13:56:13:783  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Marissa MacLellan
+2015/05/28 13:56:13:785  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:785  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Lee Zwaigen
+2015/05/28 13:56:13:787  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Joel Dubrofsky
+2015/05/28 13:56:13:788  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Braden Rosner
+2015/05/28 13:56:13:790  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:790  Room roster loaded for 26161_updates@conf.hipchat.com
+2015/05/28 13:56:13:791  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:791  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:791  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:791  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:792  [26161_rollbar@conf.hipchat.com] Received message
+2015/05/28 13:56:13:792  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:792  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:794  [26161_rollbar@conf.hipchat.com] Received presence from 26161_rollbar@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:794  Room history loaded for 26161_rollbar@conf.hipchat.com
+2015/05/28 13:56:13:796  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:796  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:797  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:797  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:798  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:798  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:799  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:799  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:800  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:800  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:801  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:802  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:803  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:803  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:803  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:804  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:804  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:805  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:805  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:806  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:806  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:807  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:807  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:808  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:808  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:811  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:811  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:812  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:813  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:814  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:814  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:815  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:815  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:816  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:816  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:818  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:818  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:819  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:819  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:819  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:819  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:820  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:820  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:820  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:820  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:821  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:822  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:822  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:822  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:823  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:823  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:823  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:823  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:824  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:824  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:824  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:824  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:825  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:825  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:825  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:826  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:826  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:826  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:827  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:827  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:827  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:828  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:829  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:829  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:829  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:830  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:830  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:830  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:831  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:831  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:831  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:832  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:832  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:832  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:833  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:833  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:833  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:833  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:834  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:834  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:835  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:835  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:835  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:835  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:836  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:837  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:837  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:837  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:838  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:838  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:838  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:839  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:840  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:840  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:840  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:841  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:841  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:842  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:842  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:842  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:842  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:843  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:843  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:843  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:843  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:844  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:844  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:844  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:845  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:845  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:845  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:846  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:846  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:846  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:846  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:846  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:847  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:847  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:847  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:847  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:847  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:848  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:848  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:848  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:848  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:849  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:849  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:849  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:850  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:850  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:850  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:850  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:852  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:853  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:853  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:854  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:854  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:855  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:855  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:855  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:858  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:858  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:859  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:859  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:859  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:860  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:860  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:860  [26161_communitylend@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:862  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:862  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:862  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:863  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:863  [26161_communitylend@conf.hipchat.com] Received message
+2015/05/28 13:56:13:863  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:863  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:864  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:864  Room history loaded for 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:13:865  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:865  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:865  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:865  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:866  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:866  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:866  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:866  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:867  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:867  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:867  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:867  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:868  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:868  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:868  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:869  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:870  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:870  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:875  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:875  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:875  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:876  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:876  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:876  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:876  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:877  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:877  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:877  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:877  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:877  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:878  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:878  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:879  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:879  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:880  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:881  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:881  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:881  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:882  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:882  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:882  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:882  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:883  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:883  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:883  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:883  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:884  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:884  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:884  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:884  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:885  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:885  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:886  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:886  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:887  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:887  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:887  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:888  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:888  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:889  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:889  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:890  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:891  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:892  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:892  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:892  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:892  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:893  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:893  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:893  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:893  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:893  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:894  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:894  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:894  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:894  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:895  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:895  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:895  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:895  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:896  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:896  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:897  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:897  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:897  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:897  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:898  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:898  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:899  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:899  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:900  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:901  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:901  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:901  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:902  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:902  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:902  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:903  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:903  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:903  [26161_continue@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:904  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:904  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:904  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:904  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:905  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 13:56:13:905  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:905  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:905  [26161_continue@conf.hipchat.com] Received presence from 26161_continue@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:905  Room history loaded for 26161_continue@conf.hipchat.com
+2015/05/28 13:56:13:906  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:906  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:907  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:907  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:907  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:908  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:908  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:908  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:909  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:909  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:909  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:910  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:910  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:910  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:911  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:911  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:911  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:911  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:913  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:913  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:914  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:914  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:914  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:914  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:915  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:915  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:915  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:915  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:916  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:916  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:916  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:916  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:917  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:917  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:917  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:917  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:918  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:918  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:918  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:919  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:919  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:919  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:920  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:920  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:921  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:921  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:921  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:921  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:921  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:921  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:922  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:922  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:922  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:922  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:923  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:923  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:923  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:923  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:923  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:923  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:924  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:924  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:924  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:925  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:925  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:925  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:925  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:925  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:926  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:926  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:926  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:926  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:927  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:927  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:927  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:928  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:928  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:928  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:928  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:928  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:929  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:929  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:929  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:929  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:930  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:930  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:931  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:931  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:932  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:932  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:932  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:932  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:933  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:933  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:934  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:934  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:934  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:934  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:935  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:935  [26161_updates@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:935  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:936  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:936  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:936  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:936  [26161_updates@conf.hipchat.com] Received message
+2015/05/28 13:56:13:936  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:936  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:938  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:938  Room history loaded for 26161_updates@conf.hipchat.com
+2015/05/28 13:56:13:938  Asked for jid for unavailable nickname: GitHub
+2015/05/28 13:56:13:939  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:939  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:939  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:940  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:940  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:941  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:941  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:941  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:942  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:942  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:942  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:942  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:943  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:943  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:943  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:943  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:944  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:944  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:945  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:945  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:945  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:945  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:946  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:946  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:946  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:946  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:947  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:947  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:948  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:948  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:949  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:949  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:949  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:949  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:950  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:950  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:951  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:951  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:952  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:952  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:952  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:952  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:953  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:953  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:953  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:953  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:954  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:954  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:954  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:954  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:956  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:956  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:957  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:957  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:958  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:958  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:958  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:958  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:959  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:959  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:959  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:959  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:960  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:960  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:960  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:961  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:961  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:961  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:961  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:962  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:962  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:962  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:963  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:963  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:964  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:964  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:964  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:965  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:965  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:965  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:966  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:966  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:966  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:967  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:967  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:967  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:968  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:968  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:968  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:968  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:969  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:969  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:971  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:971  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:972  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:972  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:973  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:973  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:974  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:974  [26161_github@conf.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:13:974  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:975  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:977  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:977  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:977  [26161_github@conf.hipchat.com] Received message
+2015/05/28 13:56:13:977  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:978  Asked for jid for nil/empty nickname - returning nil
+2015/05/28 13:56:13:978  [26161_github@conf.hipchat.com] Received presence from 26161_github@conf.hipchat.com/Michael Goodwin
+2015/05/28 13:56:13:978  Room history loaded for 26161_github@conf.hipchat.com
+2015/05/28 13:56:14:032  Chat is already selected - no views to swap out
+2015/05/28 13:56:14:032  [26161_rollbar@conf.hipchat.com] Room history finished loading for 26161_rollbar@conf.hipchat.com
+2015/05/28 13:56:14:032  [26161_rollbar@conf.hipchat.com] Going through 50 preload events - 26161_rollbar@conf.hipchat.com
+2015/05/28 13:56:14:044  [26161_rollbar@conf.hipchat.com] Finished executing preload events
+2015/05/28 13:56:14:045  [26161_rollbar@conf.hipchat.com] Going through 0 unsent messages
+2015/05/28 13:56:14:045  [26161_communitylend@conf.hipchat.com] Room history finished loading for 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:14:045  [26161_communitylend@conf.hipchat.com] Going through 50 preload events - 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:14:097  [26161_communitylend@conf.hipchat.com] Finished executing preload events
+2015/05/28 13:56:14:097  [26161_communitylend@conf.hipchat.com] Going through 0 unsent messages
+2015/05/28 13:56:14:111  [26161_continue@conf.hipchat.com] Room history finished loading for 26161_continue@conf.hipchat.com
+2015/05/28 13:56:14:111  [26161_continue@conf.hipchat.com] Going through 50 preload events - 26161_continue@conf.hipchat.com
+2015/05/28 13:56:14:152  [26161_continue@conf.hipchat.com] Finished executing preload events
+2015/05/28 13:56:14:153  [26161_continue@conf.hipchat.com] Going through 0 unsent messages
+2015/05/28 13:56:14:154  [26161_updates@conf.hipchat.com] Room history finished loading for 26161_updates@conf.hipchat.com
+2015/05/28 13:56:14:154  [26161_updates@conf.hipchat.com] Going through 50 preload events - 26161_updates@conf.hipchat.com
+2015/05/28 13:56:14:224  [26161_updates@conf.hipchat.com] Finished executing preload events
+2015/05/28 13:56:14:224  [26161_updates@conf.hipchat.com] Going through 0 unsent messages
+2015/05/28 13:56:14:227  [26161_github@conf.hipchat.com] Room history finished loading for 26161_github@conf.hipchat.com
+2015/05/28 13:56:14:227  [26161_github@conf.hipchat.com] Going through 50 preload events - 26161_github@conf.hipchat.com
+2015/05/28 13:56:14:237  [26161_github@conf.hipchat.com] Finished executing preload events
+2015/05/28 13:56:14:237  [26161_github@conf.hipchat.com] Going through 0 unsent messages
+2015/05/28 13:56:14:238  Web view hasn't loaded - not executing javascripts - 26161_rollbar@conf.hipchat.com
+2015/05/28 13:56:14:239  Web view hasn't loaded - not executing javascripts - 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:14:257  Web view hasn't loaded - not executing javascripts - 26161_continue@conf.hipchat.com
+2015/05/28 13:56:14:257  Web view hasn't loaded - not executing javascripts - 26161_updates@conf.hipchat.com
+2015/05/28 13:56:14:257  Web view hasn't loaded - not executing javascripts - 26161_github@conf.hipchat.com
+2015/05/28 13:56:14:435  Web view finished loading - try executing javascripts - 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:14:594  [26161_communitylend@conf.hipchat.com] Already loading or loaded history - aborting loadHistory
+2015/05/28 13:56:14:594  [26161_github@conf.hipchat.com] Already loading or loaded history - aborting loadHistory
+2015/05/28 13:56:14:594  [26161_rollbar@conf.hipchat.com] Already loading or loaded history - aborting loadHistory
+2015/05/28 13:56:14:594  [26161_updates@conf.hipchat.com] Already loading or loaded history - aborting loadHistory
+2015/05/28 13:56:14:594  [26161_continue@conf.hipchat.com] Already loading or loaded history - aborting loadHistory
+2015/05/28 13:56:14:594  [26161_300565@chat.hipchat.com] Loading history for chat
+2015/05/28 13:56:14:594  Requesting history for chat: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:14:595  [26161_570127@chat.hipchat.com] Loading history for chat
+2015/05/28 13:56:14:595  Requesting history for chat: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:14:595  [26161_2019734@chat.hipchat.com] Loading history for chat
+2015/05/28 13:56:14:595  Requesting history for chat: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:14:717  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:717  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:718  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:718  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:719  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:719  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:720  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:720  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:721  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:721  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:722  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:722  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:723  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:724  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:725  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:725  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:726  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:726  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:727  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:727  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:728  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:728  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:729  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:729  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:730  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:730  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:730  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:731  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:731  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:731  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:732  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:732  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:732  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:732  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:733  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:733  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:733  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:733  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:733  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:733  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:733  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:733  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:734  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:734  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:734  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:734  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:734  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:734  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:735  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:735  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:735  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:735  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:735  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:735  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:736  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:736  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:736  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:736  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:736  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:736  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:737  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:737  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:737  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:737  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:737  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:737  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:738  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:738  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:738  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:738  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:738  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:738  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:739  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:739  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:739  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:739  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:740  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:740  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:740  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:740  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:741  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:741  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:741  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:741  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:741  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:741  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:742  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:742  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:742  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:742  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:742  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:743  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:743  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:743  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:743  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:743  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:744  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:744  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:744  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:745  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:745  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:745  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:746  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:746  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:747  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:747  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:748  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:748  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:749  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:749  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:750  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:750  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:750  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:751  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:751  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:752  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:752  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:752  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:753  [26161_570127@chat.hipchat.com] Received message
+2015/05/28 13:56:14:753  [26161_570127@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:754  [26161_570127@chat.hipchat.com] History has finished loading - try execute preload events
+2015/05/28 13:56:14:754  [26161_570127@chat.hipchat.com] Going through 60 preload events - 26161_570127@chat.hipchat.com
+2015/05/28 13:56:14:788  [26161_570127@chat.hipchat.com] Finished executing preload events
+2015/05/28 13:56:14:788  [26161_570127@chat.hipchat.com] Going through 0 unsent messages
+2015/05/28 13:56:14:788  Web view hasn't loaded - not executing javascripts - 26161_570127@chat.hipchat.com
+2015/05/28 13:56:14:790  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:790  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:790  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:790  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:791  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:791  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:791  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:791  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:791  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:791  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:792  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:792  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:792  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:792  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:793  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:793  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:793  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:793  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:793  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:793  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:794  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:794  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:794  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:794  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:794  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:794  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:795  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:795  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:795  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:795  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:796  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:796  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:796  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:796  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:796  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:796  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:796  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:796  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:797  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:797  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:797  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:797  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:798  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:798  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:799  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:799  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:799  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:799  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:800  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:800  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:801  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:801  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:801  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:801  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:802  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:802  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:802  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:802  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:805  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:805  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:806  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:806  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:807  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:807  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:807  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:807  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:808  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:808  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:808  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:808  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:809  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:809  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:809  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:810  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:811  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:811  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:812  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:812  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:813  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:813  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:814  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:814  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:815  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:816  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:817  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:817  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:818  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:818  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:818  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:819  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:819  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:819  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:819  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:820  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:820  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:820  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:820  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:821  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:821  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:821  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:822  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:822  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:822  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:822  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:823  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:823  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:823  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:823  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:823  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:824  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:824  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:824  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:825  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:825  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:825  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:825  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:826  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:826  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:826  [26161_300565@chat.hipchat.com] Received message
+2015/05/28 13:56:14:827  [26161_300565@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:14:827  [26161_300565@chat.hipchat.com] History has finished loading - try execute preload events
+2015/05/28 13:56:14:827  [26161_300565@chat.hipchat.com] Going through 60 preload events - 26161_300565@chat.hipchat.com
+2015/05/28 13:56:14:877  [26161_300565@chat.hipchat.com] Finished executing preload events
+2015/05/28 13:56:14:877  [26161_300565@chat.hipchat.com] Going through 0 unsent messages
+2015/05/28 13:56:14:902  Received emoticonImagesLoaded event - marking emoticon list loaded
+2015/05/28 13:56:14:903  Received emoticonImagesLoaded event - marking emoticon list loaded
+2015/05/28 13:56:14:903  Web view hasn't loaded - not executing javascripts - 26161_300565@chat.hipchat.com
+2015/05/28 13:56:15:051  [26161_2019734@chat.hipchat.com] Received message
+2015/05/28 13:56:15:052  [26161_2019734@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:15:053  [26161_2019734@chat.hipchat.com] Received message
+2015/05/28 13:56:15:053  [26161_2019734@chat.hipchat.com] Not ready to addChatText - adding message to preload
+2015/05/28 13:56:15:053  [26161_2019734@chat.hipchat.com] History has finished loading - try execute preload events
+2015/05/28 13:56:15:053  [26161_2019734@chat.hipchat.com] Going through 2 preload events - 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:15:055  [26161_2019734@chat.hipchat.com] Finished executing preload events
+2015/05/28 13:56:15:055  [26161_2019734@chat.hipchat.com] Going through 0 unsent messages
+2015/05/28 13:56:15:055  Web view hasn't loaded - not executing javascripts - 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:17:053  Tab selection changed -- new index: 9, new jid: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:17:053  Focusing chat with jid: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:17:053  Clearing unread count for jid: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:17:069  Updating profile display for user Derek Smith
+2015/05/28 13:56:17:114  Got response for profile fetch
+2015/05/28 13:56:17:225  Updating profile display with data: ProfileData {jid: 26161_2019734@chat.hipchat.com, email: dsmith@financeit.io, name: Derek Smith, mentionName: DerekSmith2, photoLarge: https://secure.gravatar.com/avatar/8d219ac83870736b5fa84195d5a1b201?s=125&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_125.png, photoSmall: https://secure.gravatar.com/avatar/8d219ac83870736b5fa84195d5a1b201?s=36&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_36.png, title: VP Risk}
+2015/05/28 13:56:17:314  Web view finished loading - try executing javascripts - 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:22:553  Clicked close chat for JID: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:22:553  Closing chat 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:22:554  Removing 26161_2019734@chat.hipchat.com from list of chats to auto join
+2015/05/28 13:56:22:554  Deinitializing ChatViewController: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:22:554  [26161_2019734@chat.hipchat.com] Deinitializing chat
+2015/05/28 13:56:22:554  [26161_2019734@chat.hipchat.com] Closing chat
+2015/05/28 13:56:22:554  [26161_2019734@chat.hipchat.com] Deallocating Chat
+2015/05/28 13:56:22:554  Clearing unread count for jid: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:22:565  Tab selection changed -- new index: 8, new jid: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:22:565  Focusing chat with jid: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:22:565  Clearing unread count for jid: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:22:565  Focusing chat with jid: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:22:565  Clearing unread count for jid: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:22:566  Removing chat from closed chats: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:22:566  Adding chat to closed chats: 26161_2019734@chat.hipchat.com (index: 9)
+2015/05/28 13:56:22:581  Updating profile display for user Avery Pascoe
+2015/05/28 13:56:22:581  Updating profile display for user Avery Pascoe
+2015/05/28 13:56:22:602  Chat is already selected - no views to swap out
+2015/05/28 13:56:22:602  Deallocating CVC: 26161_2019734@chat.hipchat.com
+2015/05/28 13:56:22:634  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Daniel Mayne
+2015/05/28 13:56:22:647  Updating roster entries for jid 26161_communitylend@conf.hipchat.com
+2015/05/28 13:56:22:648  Web view finished loading - try executing javascripts - 26161_570127@chat.hipchat.com
+2015/05/28 13:56:22:662  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Daniel Mayne
+2015/05/28 13:56:22:689  Got response for profile fetch
+2015/05/28 13:56:22:689  Updating profile display with data: ProfileData {jid: 26161_570127@chat.hipchat.com, email: avery@financeit.io, name: Avery Pascoe, mentionName: avery, photoLarge: https://secure.gravatar.com/avatar/090e4ba9fff5cc33f56c053791042b42?s=125&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_125.png, photoSmall: https://secure.gravatar.com/avatar/090e4ba9fff5cc33f56c053791042b42?s=36&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_36.png, title: Account Manager}
+2015/05/28 13:56:22:691  Got response for profile fetch
+2015/05/28 13:56:22:692  Updating profile display with data: ProfileData {jid: 26161_570127@chat.hipchat.com, email: avery@financeit.io, name: Avery Pascoe, mentionName: avery, photoLarge: https://secure.gravatar.com/avatar/090e4ba9fff5cc33f56c053791042b42?s=125&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_125.png, photoSmall: https://secure.gravatar.com/avatar/090e4ba9fff5cc33f56c053791042b42?s=36&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_36.png, title: Account Manager}
+2015/05/28 13:56:23:586  Making API request: save_preferences
+2015/05/28 13:56:30:363  Clicked close chat for JID: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:30:363  Closing chat 26161_570127@chat.hipchat.com
+2015/05/28 13:56:30:363  Removing 26161_570127@chat.hipchat.com from list of chats to auto join
+2015/05/28 13:56:30:363  Deinitializing ChatViewController: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:30:364  [26161_570127@chat.hipchat.com] Deinitializing chat
+2015/05/28 13:56:30:364  [26161_570127@chat.hipchat.com] Closing chat
+2015/05/28 13:56:30:364  [26161_570127@chat.hipchat.com] Deallocating Chat
+2015/05/28 13:56:30:364  Clearing unread count for jid: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:30:368  Tab selection changed -- new index: 7, new jid: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:30:368  Focusing chat with jid: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:30:368  Clearing unread count for jid: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:30:368  Focusing chat with jid: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:30:368  Clearing unread count for jid: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:30:369  Removing chat from closed chats: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:30:369  Adding chat to closed chats: 26161_570127@chat.hipchat.com (index: 8)
+2015/05/28 13:56:30:372  Updating profile display for user Joel Dubrofsky
+2015/05/28 13:56:30:372  Updating profile display for user Joel Dubrofsky
+2015/05/28 13:56:30:392  Chat is already selected - no views to swap out
+2015/05/28 13:56:30:392  Deallocating CVC: 26161_570127@chat.hipchat.com
+2015/05/28 13:56:30:439  Web view finished loading - try executing javascripts - 26161_300565@chat.hipchat.com
+2015/05/28 13:56:30:556  Got response for profile fetch
+2015/05/28 13:56:30:556  Updating profile display with data: ProfileData {jid: 26161_300565@chat.hipchat.com, email: jdubrofsky@financeit.io, name: Joel Dubrofsky, mentionName: JoelDubrofsky, photoLarge: https://secure.gravatar.com/avatar/683cd412b9f490680ccd4ccb0a5f6b6a?s=125&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_125.png, photoSmall: https://secure.gravatar.com/avatar/683cd412b9f490680ccd4ccb0a5f6b6a?s=36&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_36.png, title: FSR}
+2015/05/28 13:56:30:556  Got response for profile fetch
+2015/05/28 13:56:30:558  Updating profile display with data: ProfileData {jid: 26161_300565@chat.hipchat.com, email: jdubrofsky@financeit.io, name: Joel Dubrofsky, mentionName: JoelDubrofsky, photoLarge: https://secure.gravatar.com/avatar/683cd412b9f490680ccd4ccb0a5f6b6a?s=125&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_125.png, photoSmall: https://secure.gravatar.com/avatar/683cd412b9f490680ccd4ccb0a5f6b6a?s=36&r=g&d=https%3A%2F%2Fwww.hipchat.com%2Fimg%2Fsilhouette_36.png, title: FSR}
+2015/05/28 13:56:32:406  Clicked close chat for JID: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:32:406  Closing chat 26161_300565@chat.hipchat.com
+2015/05/28 13:56:32:406  Removing 26161_300565@chat.hipchat.com from list of chats to auto join
+2015/05/28 13:56:32:406  Deinitializing ChatViewController: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:32:406  [26161_300565@chat.hipchat.com] Deinitializing chat
+2015/05/28 13:56:32:406  [26161_300565@chat.hipchat.com] Closing chat
+2015/05/28 13:56:32:406  [26161_300565@chat.hipchat.com] Deallocating Chat
+2015/05/28 13:56:32:406  Clearing unread count for jid: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:32:408  Tab selection changed -- new index: 5, new jid: 26161_continue@conf.hipchat.com
+2015/05/28 13:56:32:408  Focusing chat with jid: 26161_continue@conf.hipchat.com
+2015/05/28 13:56:32:408  Clearing unread count for jid: 26161_continue@conf.hipchat.com
+2015/05/28 13:56:32:409  Focusing chat with jid: 26161_continue@conf.hipchat.com
+2015/05/28 13:56:32:409  Clearing unread count for jid: 26161_continue@conf.hipchat.com
+2015/05/28 13:56:32:409  Removing chat from closed chats: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:32:409  Adding chat to closed chats: 26161_300565@chat.hipchat.com (index: 7)
+2015/05/28 13:56:32:415  Updating room header display for room Continue
+2015/05/28 13:56:32:419  Updating roster entries for jid 26161_continue@conf.hipchat.com
+2015/05/28 13:56:32:420  Updating room header display for room Continue
+2015/05/28 13:56:32:420  Updating roster entries for jid 26161_continue@conf.hipchat.com
+2015/05/28 13:56:32:436  Chat is already selected - no views to swap out
+2015/05/28 13:56:32:436  Deallocating CVC: 26161_300565@chat.hipchat.com
+2015/05/28 13:56:32:491  Web view finished loading - try executing javascripts - 26161_continue@conf.hipchat.com
+2015/05/28 13:56:33:587  Making API request: save_preferences
+2015/05/28 13:57:36:903  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Alyona Polianskaia
+2015/05/28 13:57:36:937  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Alyona Polianskaia
+2015/05/28 14:00:30:644  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Braden Rosner
+2015/05/28 14:01:19:610  Clearing unread count for jid: 26161_continue@conf.hipchat.com
+2015/05/28 14:01:19:634  Focusing current chat input
+2015/05/28 14:01:19:635  Focusing current chat input
+2015/05/28 14:01:19:689  App activated - ordering primary window to the front.
+2015/05/28 14:01:19:939  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Lee Zwaigen
+2015/05/28 14:01:19:940  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Lee Zwaigen
+2015/05/28 14:01:22:171  [26161_updates@conf.hipchat.com] Received presence from 26161_updates@conf.hipchat.com/Lee Zwaigen
+2015/05/28 14:01:22:197  [26161_communitylend@conf.hipchat.com] Received presence from 26161_communitylend@conf.hipchat.com/Lee Zwaigen
+2015/05/28 14:01:49:027  [26161_continue@conf.hipchat.com] Received message
+2015/05/28 14:01:49:075  Attempting to notify for message...
+2015/05/28 14:01:49:075  User preferences prevented notification - not notifying
+2015/05/28 14:01:49:075  Incrementing unread count for 26161_continue@conf.hipchat.com/Continue CI
+2015/05/28 14:01:49:619  Making request for sidebar entries with date: (null) (type = 1)
+2015/05/28 14:01:49:668  Handle IQ response for files/links
+2015/05/28 14:03:19:111  Making API request: save_preferences

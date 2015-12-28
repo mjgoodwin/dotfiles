@@ -1,0 +1,166 @@
+checking build system type... x86_64-apple-darwin13.0.2
+checking host system type... x86_64-apple-darwin13.0.2
+checking target system type... x86_64-apple-darwin13.0.2
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether clang accepts -g... yes
+checking for clang option to accept ISO C89... none needed
+checking dependency style of clang... none
+checking for a sed that does not truncate output... /usr/local/Library/ENV/4.3/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by clang... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+checking the name lister (/usr/bin/nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r
+checking for objdump... no
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm output from clang object... ok
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking how to run the C preprocessor... clang -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if clang supports -fno-rtti -fno-exceptions... yes
+checking for clang option to produce PIC... -fno-common -DPIC
+checking if clang PIC flag -fno-common -DPIC works... yes
+checking if clang static flag -static works... no
+checking if clang supports -c -o file.o... yes
+checking if clang supports -c -o file.o... (cached) yes
+checking whether the clang linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin13.0.2 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether to build in debug mode... no
+checking whether to build the MJ2 binaries... no
+checking whether to build the JPWL library... no
+checking whether to build the JPIP library... no
+checking whether to build the JPIP server... no
+checking for gcc... (cached) clang
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether clang accepts -g... (cached) yes
+checking for clang option to accept ISO C89... (cached) none needed
+checking dependency style of clang... (cached) none
+checking for pkg-config... no
+./configure: line 11778: --atleast-pkgconfig-version: command not found
+checking whether to build documentation... yes
+checking for doxygen... no
+WARNING:
+The doxygen program was not found in your execute path.
+You may have doxygen installed somewhere not covered by your path.
+
+If this is the case make sure you have the packages installed, AND
+that the doxygen program is in your execute path (see your
+shell manual page on setting the $PATH environment variable), OR
+alternatively, specify the program to use with --with-doxygen.
+configure: WARNING: no doxygen detected. Documentation will not be built
+checking whether ln -s works... yes
+checking whether to build with PNG support... yes
+checking for PNG... no
+checking for PNG... no
+checking for PNG... no
+checking for PNG... no
+checking whether Z library is available in standard or predefined directories... no
+checking whether Z library is available in /usr... yes
+checking whether PNG library is available in standard or predefined directories... no
+checking whether PNG library is available in /usr... yes
+checking whether PNG is available... yes
+checking whether to build with TIFF support... yes
+checking whether TIFF library is available in standard or predefined directories... no
+checking whether TIFF library is available in /usr... yes
+checking whether TIFF is available... yes
+checking whether to build with LCMS-2 support... yes
+checking for LCMS2... no
+checking whether LCMS-2 is available... no
+checking whether to build with LCMS-1 support... yes
+checking for LCMS1... no
+checking for LCMS1... no
+checking whether LCMS-1 is available... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether clang and cc understand -c and -o together... yes
+checking whether byte ordering is bigendian... no
+checking whether the compiler supports -Wno-unused-result... yes
+checking whether the compiler supports -O3... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libopenjpeg1.pc
+config.status: creating libopenjpeg-jpwl.pc
+config.status: creating libopenjpeg/Makefile
+config.status: creating libopenjpeg/jpwl/Makefile
+config.status: creating applications/Makefile
+config.status: creating applications/codec/Makefile
+config.status: creating applications/mj2/Makefile
+config.status: creating applications/jpip/Makefile
+config.status: creating applications/jpip/libopenjpip/Makefile
+config.status: creating applications/jpip/util/Makefile
+config.status: creating doc/Makefile
+config.status: creating opj_config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+
+
+------------------------------------------------------------------------
+openjpeg 1.5.0
+------------------------------------------------------------------------
+
+
+Configuration Options Summary:
+
+  Debug...............: no
+
+  Optional support:
+    libpng............: yes
+    libtiff...........: yes
+    libcms............: no
+
+  Documentation.......: no
+    Build.............: make doc
+
+  mj2.................: no
+  jpwl................: no
+  jpip................: no
+  jpip server.........: no
+

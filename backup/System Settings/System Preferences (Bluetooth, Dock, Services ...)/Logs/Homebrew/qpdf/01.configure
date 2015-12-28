@@ -1,0 +1,132 @@
+checking for gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether clang accepts -g... yes
+checking for clang option to accept ISO C89... none needed
+checking for clang option to accept ISO C99... none needed
+checking whether we are using the GNU C++ compiler... yes
+checking whether clang++ accepts -g... yes
+checking how to run the C preprocessor... clang -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking build system type... x86_64-apple-darwin13.3.0
+checking host system type... x86_64-apple-darwin13.3.0
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/local/Library/ENV/4.3/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by clang... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+checking the name lister (/usr/bin/nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-apple-darwin13.3.0 file names to x86_64-apple-darwin13.3.0 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin13.3.0 file names to toolchain format... func_convert_file_noop
+checking for /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld option to reload object files... -r
+checking for objdump... no
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking command to parse /usr/bin/nm output from clang object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if clang supports -fno-rtti -fno-exceptions... yes
+checking for clang option to produce PIC... -fno-common -DPIC
+checking if clang PIC flag -fno-common -DPIC works... yes
+checking if clang static flag -static works... no
+checking if clang supports -c -o file.o... yes
+checking if clang supports -c -o file.o... (cached) yes
+checking whether the clang linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin13.3.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... clang++ -E
+checking for ld used by clang++... /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+checking if the linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) is GNU ld... no
+checking whether the clang++ linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking for clang++ option to produce PIC... -fno-common -DPIC
+checking if clang++ PIC flag -fno-common -DPIC works... yes
+checking if clang++ static flag -static works... no
+checking if clang++ supports -c -o file.o... yes
+checking if clang++ supports -c -o file.o... (cached) yes
+checking whether the clang++ linker (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin13.3.0 dyld
+checking how to hardcode library paths into programs... immediate
+no
+yes
+checking for "/dev/urandom"... yes
+checking for whether to use external libraries distribution... no
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for library containing deflate... -lz
+checking pcre.h usability... yes
+checking pcre.h presence... yes
+checking for pcre.h... yes
+checking for library containing pcre_compile... -lpcre
+checking for Advapi32 library... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for fseeko64... no
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for random... yes
+checking if LD -Wl,--version-script works... no
+checking for gnu make >= 3.81... yes
+checking for whether clang supports -MD -MF x.dep -MP... yes
+checking which build rules to use... libtool
+checking for whether clang supports -Wall... yes
+checking for whether clang++ supports -Wold-style-cast... yes
+checking for whether to use -Werror... no
+checking for xml to xhtml docbook stylesheets... no
+checking for xml to fo docbook stylesheets... no
+checking for docbook 4.x xml DTD... no
+checking for fop... no
+checking for xsltproc... xsltproc
+checking for xmllint... xmllint
+configure: creating ./config.status
+config.status: creating autoconf.mk
+config.status: creating manual/html.xsl
+config.status: creating manual/print.xsl
+config.status: creating libqpdf.pc
+config.status: creating libqpdf/qpdf/qpdf-config.h
+config.status: executing libtool commands

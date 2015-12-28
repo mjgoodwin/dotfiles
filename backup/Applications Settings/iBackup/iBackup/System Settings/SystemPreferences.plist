@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>System Preferences (Bluetooth, Dock, Services ...)</string>
+	<string>1.6</string>
+	<string>~/Library/Application Support/Apple</string>
+	<string>~/Library/Logs</string>
+	<string>~/Library/PreferencePanes</string>
+	<string>~/Library/Preferences/com.apple.ActivityMonitor.plist</string>
+	<string>~/Library/Preferences/com.apple.airport.adminutility.plist</string>
+	<string>~/Library/Preferences/com.apple.AppleShareClient</string>
+	<string>~/Library/Preferences/com.apple.Aperture.plist</string>
+	<string>~/Library/Preferences/com.apple.BezelServices.plist</string>
+	<string>~/Library/Preferences/com.apple.Bluetooth.plist</string>
+	<string>~/Library/Preferences/com.apple.BluetoothFileExchange.plist</string>
+	<string>~/Library/Preferences/com.apple.BluetoothFirmwareUpdater.plist</string>
+	<string>~/Library/Preferences/com.apple.calculator.plist</string>
+	<string>~/Library/Preferences/com.apple.Console.plist</string>
+	<string>~/Library/Preferences/com.apple.desktop.plist</string>
+	<string>~/Library/Preferences/com.apple.DiskUtility.plist</string>
+	<string>~/Library/Preferences/com.apple.dock.plist
+/Users/martinjahn/Library/Preferences/com.apple.dock.plist
+/Users/martinjahn/Library/Preferences/com.apple.dock.plist</string>
+	<string>~/Library/Preferences/com.apple.DotMacSync.plist</string>
+	<string>~/Library/Preferences/com.apple.driver.AppleHIDMouse.plist</string>
+	<string>~/Library/Preferences/com.apple.finder.plist</string>
+	<string>~/Library/Preferences/com.apple.FolderActions.plist</string>
+	<string>~/Library/Preferences/com.apple.FontBook.plist</string>
+	<string>~/Library/Preferences/com.apple.frontrow.plist</string>
+	<string>~/Library/Preferences/com.apple.help.plist</string>
+	<string>~/Library/Preferences/com.apple.helpviewer.plist</string>
+	<string>~/Library/Preferences/com.apple.HIToolbox.plist</string>
+	<string>~/Library/Preferences/com.apple.InterfaceBuilder.plist</string>
+	<string>~/Library/Preferences/com.apple.InterfaceBuilder3</string>
+	<string>~/Library/Preferences/com.apple.internetconfig.plist</string>
+	<string>~/Library/Preferences/com.apple.internetconfigpriv.plist</string>
+	<string>~/Library/Preferences/com.apple.LaunchServices.plist</string>
+	<string>~/Library/Preferences/com.apple.loginwindow.plist</string>
+	<string>~/Library/Preferences/com.apple.MenuBarClock.plist</string>
+	<string>~/Library/Preferences/com.apple.menuextra.battery.plist</string>
+	<string>~/Library/Preferences/com.apple.menuextra.textinput.plist</string>
+	<string>~/Library/Preferences/com.apple.PhotoBooth.plist</string>
+	<string>~/Library/Preferences/com.apple.NetworkUtility.plist</string>
+	<string>~/Library/Preferences/com.apple.preference.desktopscreeneffect</string>
+	<string>~/Library/Preferences/com.apple.Preview.bookmarks.plist</string>
+	<string>~/Library/Preferences/com.apple.Preview.plist</string>
+	<string>~/Library/Preferences/com.apple.PropertyListEditor.plist</string>
+	<string>~/Library/Preferences/com.apple.recentitems.plist</string>
+	<string>~/Library/Preferences/com.apple.scheduler.plist</string>
+	<string>~/Library/Preferences/com.apple.ScriptEditor2.plist</string>
+	<string>~/Library/Preferences/com.apple.Sherlock.plist</string>
+	<string>~/Library/Preferences/com.apple.sidebarlists.plist</string>
+	<string>~/Library/Preferences/com.apple.spotlight.plist</string>
+	<string>~/Library/Preferences/com.apple.symbolichotkeys.plist</string>
+	<string>~/Library/Preferences/com.apple.systempreferences.plist</string>
+	<string>~/Library/Preferences/com.apple.systemuiserver.plist</string>
+	<string>~/Library/Preferences/com.apple.Terminal.plist</string>
+	<string>~/Library/Preferences/com.apple.TextEdit.plist</string>
+	<string>~/Library/Preferences/com.apple.universalaccess.plist</string>
+	<string>~/Library/Preferences/com.apple.x11.plist</string>
+	<string>~/Library/Preferences/com.apple.Xcode.plist</string>
+	<string>~/Library/Preferences/loginwindow.plist</string>
+	<string>~/Library/Preferences/Sherlock</string>
+	<string>~/Library/Recent Servers</string>
+	<string>~/Library/Services</string>
+	<string>~/Library/Scripts</string>
+	<string>~/Library/Spotlight</string>
+	<string>/Library/Preferences/com.apple.sharing.firewall.plist</string>
+</array>
+</plist>

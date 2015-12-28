@@ -1,0 +1,88 @@
+Installing MySQL system tables...2013-12-09 11:09:30 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2013-12-09 11:09:30 86011 [Note] InnoDB: The InnoDB memory heap is disabled
+2013-12-09 11:09:30 86011 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2013-12-09 11:09:30 86011 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2013-12-09 11:09:30 86011 [Note] InnoDB: Using CPU crc32 instructions
+2013-12-09 11:09:30 86011 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2013-12-09 11:09:30 86011 [Note] InnoDB: Completed initialization of buffer pool
+2013-12-09 11:09:30 86011 [Note] InnoDB: The first specified data file ./ibdata1 did not exist: a new database to be created!
+2013-12-09 11:09:30 86011 [Note] InnoDB: Setting file ./ibdata1 size to 12 MB
+2013-12-09 11:09:30 86011 [Note] InnoDB: Database physically writes the file full: wait...
+2013-12-09 11:09:30 86011 [Note] InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+2013-12-09 11:09:30 86011 [Note] InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+2013-12-09 11:09:30 86011 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2013-12-09 11:09:30 86011 [Warning] InnoDB: New log files created, LSN=45781
+2013-12-09 11:09:30 86011 [Note] InnoDB: Doublewrite buffer not found: creating new
+2013-12-09 11:09:31 86011 [Note] InnoDB: Doublewrite buffer created
+2013-12-09 11:09:31 86011 [Note] InnoDB: 128 rollback segment(s) are active.
+2013-12-09 11:09:31 86011 [Warning] InnoDB: Creating foreign key constraint system tables.
+2013-12-09 11:09:31 86011 [Note] InnoDB: Foreign key constraint system tables created
+2013-12-09 11:09:31 86011 [Note] InnoDB: Creating tablespace and datafile system tables.
+2013-12-09 11:09:31 86011 [Note] InnoDB: Tablespace and datafile system tables created.
+2013-12-09 11:09:31 86011 [Note] InnoDB: Waiting for purge to start
+2013-12-09 11:09:31 86011 [Note] InnoDB: 5.6.15 started; log sequence number 0
+2013-12-09 11:09:31 86011 [Note] Binlog end
+2013-12-09 11:09:31 86011 [Note] InnoDB: FTS optimize thread exiting.
+2013-12-09 11:09:31 86011 [Note] InnoDB: Starting shutdown...
+2013-12-09 11:09:32 86011 [Note] InnoDB: Shutdown completed; log sequence number 1625977
+OK
+
+Filling help tables...2013-12-09 11:09:32 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2013-12-09 11:09:32 86012 [Note] InnoDB: The InnoDB memory heap is disabled
+2013-12-09 11:09:32 86012 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2013-12-09 11:09:32 86012 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2013-12-09 11:09:32 86012 [Note] InnoDB: Using CPU crc32 instructions
+2013-12-09 11:09:32 86012 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2013-12-09 11:09:32 86012 [Note] InnoDB: Completed initialization of buffer pool
+2013-12-09 11:09:32 86012 [Note] InnoDB: Highest supported file format is Barracuda.
+2013-12-09 11:09:32 86012 [Note] InnoDB: 128 rollback segment(s) are active.
+2013-12-09 11:09:32 86012 [Note] InnoDB: Waiting for purge to start
+2013-12-09 11:09:32 86012 [Note] InnoDB: 5.6.15 started; log sequence number 1625977
+2013-12-09 11:09:32 86012 [Note] Binlog end
+2013-12-09 11:09:32 86012 [Note] InnoDB: FTS optimize thread exiting.
+2013-12-09 11:09:32 86012 [Note] InnoDB: Starting shutdown...
+2013-12-09 11:09:33 86012 [Note] InnoDB: Shutdown completed; log sequence number 1625987
+OK
+
+To start mysqld at boot time you have to copy
+support-files/mysql.server to the right place for your system
+
+PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+To do so, start the server, then issue the following commands:
+
+  /usr/local/Cellar/mysql/5.6.15/bin/mysqladmin -u root password 'new-password'
+  /usr/local/Cellar/mysql/5.6.15/bin/mysqladmin -u root -h michaels-mbp password 'new-password'
+
+Alternatively you can run:
+
+  /usr/local/Cellar/mysql/5.6.15/bin/mysql_secure_installation
+
+which will also give you the option of removing the test
+databases and anonymous user created by default.  This is
+strongly recommended for production servers.
+
+See the manual for more instructions.
+
+You can start the MySQL daemon with:
+
+  cd . ; /usr/local/Cellar/mysql/5.6.15/bin/mysqld_safe &
+
+You can test the MySQL daemon with mysql-test-run.pl
+
+  cd mysql-test ; perl mysql-test-run.pl
+
+Please report any problems with the ./bin/mysqlbug script!
+
+The latest information about MySQL is available on the web at
+
+  http://www.mysql.com
+
+Support MySQL by buying support/licenses at http://shop.mysql.com
+
+WARNING: Found existing config file /usr/local/Cellar/mysql/5.6.15/my.cnf on the system.
+Because this file might be in use, it was not replaced,
+but was used in bootstrap (unless you used --defaults-file)
+and when you later start the server.
+The new default config file was created as /usr/local/Cellar/mysql/5.6.15/my-new.cnf,
+please compare it with your file and take the changes you need.
+

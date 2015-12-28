@@ -1,0 +1,65 @@
+
+
+================================================================================
+/Users/mike/Library/Logs/com.citrixonline.WebDeployment/DownloaderApp.log
+20140116 15:54:34.713 I: [34637] <0707> begun.
+20140116 15:54:34.745 I: [34637] <0707> applicationDidFinishLaunching:
+20140116 15:54:34.745 I: [34637] <0707> app build (static): 168
+20140116 15:54:34.746 I: [34637] <0707> /Users/mike/Downloads/Citrix Online Launcher.app
+20140116 15:54:34.746 I: [34637] <0707>     _activationUrl: (null)
+20140116 15:54:34.776 I: [34637] <0707> MacOSX_10_9_1_intel
+20140116 15:54:34.879 I: [34637] <0707> reportStartup
+20140116 15:54:34.880 I: [34637] <0707>     User-Agent: CitrixOnline Launcher App (MacOSX_10_9_1_intel) Version/1.0.0.168
+20140116 15:54:34.880 I: [34637] <0707> telemetry data 'helperState=Starting'
+20140116 15:54:34.915 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connection:willSendRequestForEstablishedConnection:properties:'
+20140116 15:54:34.915 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connectionWaiting:'
+20140116 15:54:34.915 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connection:didWriteData:totalBytesWritten:expectedTotalBytes:'
+20140116 15:54:34.915 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connection:conditionalRequirementsChanged:'
+20140116 15:54:34.916 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connectionDidResumeDownloading:totalBytesWritten:expectedTotalBytes:'
+20140116 15:54:34.916 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connectionDidFinishDownloading:destinationURL:'
+20140116 15:54:34.927 I: [34637] <0707> removing zip whence app extracted '/Users/mike/Downloads/Citrix Online Launcher.zip'
+20140116 15:54:34.957 I: [34637] <0707> continueStartWithPatchedDownload
+20140116 15:54:34.959 I: [34637] <0707> sending request for 'https://download.citrixonline.com/launcher2/telemetry/helper?token=e0-icK131jMn9r20pK9sFJDN0QhDX7NKfN_VgroL-4LBBhWq2RERdaMR7hfcO3AyM4G2tTi472mrLSWZBMK7n5OJ_NqBXoPF4ytumZs7nWw-cgG19Oz40cbYQA_yOx93bNocqbnlW_nv6UviATW4KYVlOwAnAy2w5alr-ORKpCTApyJ-EaVkdGQBD0uVUWfKp2grFjEPejkRDhe75JXs2EeBEFbROYGkFenV_1ys0HVrs7Q9yqSmnqiRGUbVEUZCaTWXRmqO2iqv3NbArhUB_JplIB2x4LCN3E9ks3pUh65bQ88zu_rs_RV9izWol5F7kn_678BsCMFxjcNPxgIE-2A_DwhqPWyGGAaJFUxCWykhA48iLvKrJ1gydTzPrEUEbWvrOBjk5vRbZ2PfYT4VWQ8VARrrvEYY1jR97ZaleDPDcxUINEI&downloadTrigger=javascript'
+20140116 15:54:34.960 I: [34637] <0707> enterSingleInstance - locked
+20140116 15:54:34.961 I: [34637] <0707> checking app at /Users/mike/Downloads/Citrix Online Launcher 2.app
+20140116 15:54:34.964 I: [34637] <0707> found version 168
+20140116 15:54:34.964 I: [34637] <0707> qualified existing app
+20140116 15:54:34.965 I: [34637] <0707> commonStartLaunch
+20140116 15:54:34.966 I: [34637] <0707> Running on behalf of g2w (GoToWebinar)
+20140116 15:54:34.966 I: [34637] <0707> compatibleBuilds: 1259
+20140116 15:54:34.991 I: [34637] <0707>     User-Agent: CitrixOnline Launcher App (MacOSX_10_9_1_intel) Version/1.0.0.168
+20140116 15:54:34.992 I: [34637] <0707> sending request for 'https://download.citrixonline.com/launcher2/static/plugins/CitrixOnlineApplicationDetectorPlugin.tar.bz2'
+20140116 15:54:35.548 I: [34637] <0707> reportStartup complete.
+20140116 15:54:35.548 I: [34637] <0707>     startupReportMetrics: result=Success&totalTime=667&timeToDownload=0&bytesDownloaded=0&hostName=download.citrixonline.com
+20140116 15:54:35.969 I: [34637] <0707> created file '/private/var/folders/ch/dxbtkpsx039cg4l246tcs87m0000gn/T/TemporaryItems/(A Document Being Saved By Citrix Online Launcher)/CitrixOnlineApplicationDetectorPlugin'
+20140116 15:54:35.990 I: [34637] <0707>     pluginDownloadMetrics: result=Success&totalTime=997&timeToDownload=22&bytesDownloaded=31404&hostName=download.citrixonline.com&contentType=application%2Fx-bzip2
+20140116 15:54:35.991 I: [34637] <0707> in '/Users/mike/Library/Internet Plug-Ins', executing /usr/bin/tar "--extract" "--bzip2" "--file" "/private/var/folders/ch/dxbtkpsx039cg4l246tcs87m0000gn/T/TemporaryItems/(A Document Being Saved By Citrix Online Launcher)/CitrixOnlineApplicationDetectorPlugin" "--directory" "/Users/mike/Library/Internet Plug-Ins"
+20140116 15:54:35.992 I: [34637] <0707> unarchiving to: /Users/mike/Library/Internet Plug-Ins
+20140116 15:54:36.020 I: [34637] <0707> removing downloaded plugin archive '/private/var/folders/ch/dxbtkpsx039cg4l246tcs87m0000gn/T/TemporaryItems/(A Document Being Saved By Citrix Online Launcher)/CitrixOnlineApplicationDetectorPlugin'
+20140116 15:54:36.033 I: [34637] <0707> found no installed apps to handle scheme 'gotomeeting1259'
+20140116 15:54:36.033 I: [34637] <0707> No suitable endpoint found to launch.
+20140116 15:54:36.034 I: [34637] <0707> found no archive /Users/mike/Library/Caches/com.citrixonline/G2M_Mac_x86_1259
+20140116 15:54:36.034 I: [34637] <0707>     User-Agent: CitrixOnline Launcher App (MacOSX_10_9_1_intel) Version/1.0.0.168
+20140116 15:54:36.035 I: [34637] <0707> sending request for 'https://builds.citrixonlinecdn.com/builds/g2m/1259/G2M_Mac_x86'
+20140116 15:54:36.897 I: [34637] <0707> created file '/Users/mike/Library/Caches/com.citrixonline/G2M_Mac_x86_1259'
+20140116 15:54:43.375 I: [34637] <0707>     endpointDownloadMetrics: result=Success&totalTime=7339&timeToDownload=6477&bytesDownloaded=9582121&hostName=builds.citrixonlinecdn.com&contentType=application%2Foctet-stream
+20140116 15:54:43.376 I: [34637] <0707> in '/private/var/folders/ch/dxbtkpsx039cg4l246tcs87m0000gn/T/TemporaryItems/(A Document Being Saved By Citrix Online Launcher)', executing /usr/bin/tar "--extract" "--bzip2" "--file" "/Users/mike/Library/Caches/com.citrixonline/G2M_Mac_x86_1259" "--directory" "/private/var/folders/ch/dxbtkpsx039cg4l246tcs87m0000gn/T/TemporaryItems/(A Document Being Saved By Citrix Online Launcher)"
+20140116 15:54:43.376 I: [34637] <0707> unarchiving to: /private/var/folders/ch/dxbtkpsx039cg4l246tcs87m0000gn/T/TemporaryItems/(A Document Being Saved By Citrix Online Launcher)
+20140116 15:54:45.316 I: [34637] <0707> installed to '/Applications/GoToMeeting (1259).app'
+20140116 15:54:45.418 I: [34637] <0707> Launching 'file://localhost/Applications/GoToMeeting%20(1259).app' with 'gotomeeting1259://SALaunch?Action=Join&BrokerServiceSuffix=@ISL1&Build=1259&EGWAddress=216.115.208.230&EGWDNS=egwglobal.gotomeeting.com&EGWPort=80,443,8200&MeetingID=158223003&Mode=Terse&Product=g2w&UserID=814435143&UserRole=attendee&sessionTrackingId=e0-icK131jMn9r20pK9sFJDN0QhDX7NK'
+20140116 15:54:45.441 I: [34637] <0707> leaveSingleInstance - unlocked
+20140116 15:54:45.441 I: [34637] <0707> reportTelemetry:
+20140116 15:54:45.441 I: [34637] <0707> uponReportStartupCompletionPerform... now
+20140116 15:54:45.441 I: [34637] <0707> continueReportTelemetry:
+20140116 15:54:45.442 I: [34637] <0707>     User-Agent: CitrixOnline Launcher App (MacOSX_10_9_1_intel) Version/1.0.0.168
+20140116 15:54:45.442 I: [34637] <0707> telemetry data 'appBuild=168&downloadBaseURL=https%3A%2F%2Fbuilds.citrixonlinecdn.com%2Fbuilds%2Fg2m%2F1259%2F%2Chttps%3A%2F%2Fbuilds.citrixonlinecdn.com%2Fbuilds%2Fg2m%2F1259%2F&endpointState=LaunchedDownloaded&helperRuntime=10664&helperState=Exists&helperUUID=F3EFADD0-0CCD-4519-A57E-23A984FE7390&launchedBuild=1259&osVersion=MacOSX_10_9_1_intel&pluginState=Installed&startupReportMetrics=result%3DSuccess%26totalTime%3D667%26timeToDownload%3D0%26bytesDownloaded%3D0%26hostName%3Ddownload.citrixonline.com&pluginDownloadMetrics=result%3DSuccess%26totalTime%3D997%26timeToDownload%3D22%26bytesDownloaded%3D31404%26hostName%3Ddownload.citrixonline.com%26contentType%3Dapplication%252Fx-bzip2&endpointDownloadMetrics=result%3DSuccess%26totalTime%3D7339%26timeToDownload%3D6477%26bytesDownloaded%3D9582121%26hostName%3Dbuilds.citrixonlinecdn.com%26contentType%3Dapplication%252Foctet-stream&helperHistory=EnterSingleInstanceSucceeded&helperHistory=HelperLocatingExisting&helperHistory=HelperLocatedExisting&helperHistory=ConfigForProductSucceeded&helperHistory=PluginLocatingExisting&helperHistory=PluginLocateExistingFailed&helperHistory=PluginDownloading&helperHistory=PluginDownloaded&helperHistory=PluginInstalling&helperHistory=PluginInstalled&helperHistory=EndpointLaunchingExisting&helperHistory=eNoInstalledAppFound&helperHistory=EndpointLaunchExistingFailed&helperHistory=EndpointLocatingCached&helperHistory=eArchiveNotExists&helperHistory=EndpointLocateCachedFailed&helperHistory=EndpointDownloading&helperHistory=EndpointDownloaded&helperHistory=EndpointUnarchiving&helperHistory=EndpointUnarchived&helperHistory=EndpointInstalling&helperHistory=EndpointInstalledApplications&helperHistory=EndpointLaunchingDownloaded&helperHistory=EndpointLaunchedDownloaded'
+20140116 15:54:45.443 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connection:willSendRequestForEstablishedConnection:properties:'
+20140116 15:54:45.443 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connectionWaiting:'
+20140116 15:54:45.443 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connection:didWriteData:totalBytesWritten:expectedTotalBytes:'
+20140116 15:54:45.443 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connection:conditionalRequirementsChanged:'
+20140116 15:54:45.443 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connectionDidResumeDownloading:totalBytesWritten:expectedTotalBytes:'
+20140116 15:54:45.444 I: [34637] <0707> -[UrlUiDelegate respondsToSelector:], does not respond to 'connectionDidFinishDownloading:destinationURL:'
+20140116 15:54:45.444 I: [34637] <0707> sending request for 'https://download.citrixonline.com/launcher2/telemetry/helper?token=e0-icK131jMn9r20pK9sFJDN0QhDX7NKfN_VgroL-4LBBhWq2RERdaMR7hfcO3AyM4G2tTi472mrLSWZBMK7n5OJ_NqBXoPF4ytumZs7nWw-cgG19Oz40cbYQA_yOx93bNocqbnlW_nv6UviATW4KYVlOwAnAy2w5alr-ORKpCTApyJ-EaVkdGQBD0uVUWfKp2grFjEPejkRDhe75JXs2EeBEFbROYGkFenV_1ys0HVrs7Q9yqSmnqiRGUbVEUZCaTWXRmqO2iqv3NbArhUB_JplIB2x4LCN3E9ks3pUh65bQ88zu_rs_RV9izWol5F7kn_678BsCMFxjcNPxgIE-2A_DwhqPWyGGAaJFUxCWykhA48iLvKrJ1gydTzPrEUEbWvrOBjk5vRbZ2PfYT4VWQ8VARrrvEYY1jR97ZaleDPDcxUINEI&downloadTrigger=javascript'
+20140116 15:54:47.478 I: [34637] <0707> removing temp directory '/private/var/folders/ch/dxbtkpsx039cg4l246tcs87m0000gn/T/TemporaryItems/(A Document Being Saved By Citrix Online Launcher)'
+20140116 15:54:47.479 I: [34637] <0707> removing app bundle '/Users/mike/Downloads/Citrix Online Launcher.app'
+20140116 15:54:47.483 I: [34637] <0707> finished.

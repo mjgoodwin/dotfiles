@@ -1,0 +1,193 @@
+2014-02-27 14:18:00.107|accountsd|51618|0x2f4fcd0|Note |DMPerformMigration called by process: accountsd[51618], reason: accountsd needs migration to finish
+2014-02-27 14:18:00.135|accountsd|51618|0x2f51ad0|Error|Data migrator completed with success: NO!
+2014-02-27 14:18:00.135|accountsd|51618|0x2f4fcd0|Error|Data Migration failed!
+2014-02-27 14:18:00.424|backboardd|51604|0x5065510|Info |System build version changed from (null) to 13B3116. We're going to run migration.
+2014-02-27 14:18:00.426|backboardd|51604|0x5065510|Note |DMPerformMigration called by process: backboardd[51604], reason: System build version changed from (null) to 13B3116
+2014-02-27 14:18:00.457|backboardd|51604|0x4e58270|Error|Data migrator completed with success: NO!
+2014-02-27 14:18:00.458|backboardd|51604|0x5065510|Error|Data Migration failed!
+2014-02-27 14:18:00.458|backboardd|51604|0x5065510|Info |Migration FAILED. (Elapsed time: 0.03 seconds)
+2014-02-27 16:19:12.009|backboardd|57525|0x4f41db0|Info |System build version changed from (null) to 13B3116. We're going to run migration.
+2014-02-27 16:19:12.011|backboardd|57525|0x4f41db0|Note |DMPerformMigration called by process: backboardd[57525], reason: System build version changed from (null) to 13B3116
+2014-02-27 16:19:12.045|backboardd|57525|0x4d290a0|Error|Data migrator completed with success: NO!
+2014-02-27 16:19:12.045|backboardd|57525|0x4f41db0|Error|Data Migration failed!
+2014-02-27 16:19:12.046|backboardd|57525|0x4f41db0|Info |Migration FAILED. (Elapsed time: 0.03 seconds)
+2014-02-28 13:17:27.133|backboardd|67624|0x4e2f2f0|Info |System build version changed from (null) to 13B3116. We're going to run migration.
+2014-02-28 13:17:27.202|backboardd|67624|0x4e2f2f0|Note |DMPerformMigration called by process: backboardd[67624], reason: System build version changed from (null) to 13B3116
+2014-02-28 13:17:27.212|backboardd|67624|0x4e30800|Error|Data migrator completed with success: NO!
+2014-02-28 13:17:27.214|backboardd|67624|0x4e2f2f0|Error|Data Migration failed!
+2014-02-28 13:17:27.215|backboardd|67624|0x4e2f2f0|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-06-26 13:48:55.908|backboardd|13064|0x4f504b0|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-06-26 13:48:55.636|accountsd|13080|0x2f80c10|Note |DMPerformMigration called by process: accountsd[13080], reason: accountsd needs migration to finish
+2014-06-26 13:48:55.910|backboardd|13064|0x4f504b0|Note |DMPerformMigration called by process: backboardd[13064], reason: System build version changed from (null) to 13D65
+2014-06-26 13:48:55.667|accountsd|13080|0x3183670|Error|Data migrator completed with success: NO!
+2014-06-26 13:48:55.948|backboardd|13064|0x4e5a480|Error|Data migrator completed with success: NO!
+2014-06-26 13:48:55.667|accountsd|13080|0x2f80c10|Error|Data Migration failed!
+2014-06-26 13:48:55.949|backboardd|13064|0x4f504b0|Error|Data Migration failed!
+2014-06-26 13:48:55.949|backboardd|13064|0x4f504b0|Info |Migration FAILED. (Elapsed time: 0.04 seconds)
+2014-06-26 14:09:18.535|backboardd|14408|0x4f78e10|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-06-26 14:09:18.538|backboardd|14408|0x4f78e10|Note |DMPerformMigration called by process: backboardd[14408], reason: System build version changed from (null) to 13D65
+2014-06-26 14:09:18.548|backboardd|14408|0x4d78af0|Error|Data migrator completed with success: NO!
+2014-06-26 14:09:18.548|backboardd|14408|0x4f78e10|Error|Data Migration failed!
+2014-06-26 14:09:18.549|backboardd|14408|0x4f78e10|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-06-26 16:04:26.010|backboardd|23072|0x5019960|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-06-26 16:04:26.015|backboardd|23072|0x5019960|Note |DMPerformMigration called by process: backboardd[23072], reason: System build version changed from (null) to 13D65
+2014-06-26 16:04:26.019|backboardd|23072|0x4f2e770|Error|Data migrator completed with success: NO!
+2014-06-26 16:04:26.019|backboardd|23072|0x5019960|Error|Data Migration failed!
+2014-06-26 16:04:26.019|backboardd|23072|0x5019960|Info |Migration FAILED. (Elapsed time: 0.00 seconds)
+2014-06-26 16:08:01.178|backboardd|24491|0x4d20d80|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-06-26 16:08:01.179|backboardd|24491|0x4d20d80|Note |DMPerformMigration called by process: backboardd[24491], reason: System build version changed from (null) to 13D65
+2014-06-26 16:08:01.183|backboardd|24491|0x4f173b0|Error|Data migrator completed with success: NO!
+2014-06-26 16:08:01.183|backboardd|24491|0x4d20d80|Error|Data Migration failed!
+2014-06-26 16:08:01.184|backboardd|24491|0x4d20d80|Info |Migration FAILED. (Elapsed time: 0.00 seconds)
+2014-06-26 16:37:08.914|backboardd|28495|0x4e1e990|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-06-26 16:37:08.919|backboardd|28495|0x4e1e990|Note |DMPerformMigration called by process: backboardd[28495], reason: System build version changed from (null) to 13D65
+2014-06-26 16:37:08.924|backboardd|28495|0x4d0cec0|Error|Data migrator completed with success: NO!
+2014-06-26 16:37:08.924|backboardd|28495|0x4e1e990|Error|Data Migration failed!
+2014-06-26 16:37:08.924|backboardd|28495|0x4e1e990|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-06-27 11:49:05.699|backboardd|37198|0x4f091c0|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-06-27 11:49:05.700|backboardd|37198|0x4f091c0|Note |DMPerformMigration called by process: backboardd[37198], reason: System build version changed from (null) to 13D65
+2014-06-27 11:49:05.707|backboardd|37198|0x4e12450|Error|Data migrator completed with success: NO!
+2014-06-27 11:49:05.707|backboardd|37198|0x4f091c0|Error|Data Migration failed!
+2014-06-27 11:49:05.707|backboardd|37198|0x4f091c0|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-07-02 09:20:15.350|backboardd|1988|0x4e4bad0|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-07-02 09:20:15.374|backboardd|1988|0x4e4bad0|Note |DMPerformMigration called by process: backboardd[1988], reason: System build version changed from (null) to 13D65
+2014-07-02 09:20:15.381|backboardd|1988|0x4d40270|Error|Data migrator completed with success: NO!
+2014-07-02 09:20:15.381|backboardd|1988|0x4e4bad0|Error|Data Migration failed!
+2014-07-02 09:20:15.381|backboardd|1988|0x4e4bad0|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-07-03 11:54:22.988|backboardd|22667|0x4e5c6d0|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-07-03 11:54:23.019|backboardd|22667|0x4e5c6d0|Note |DMPerformMigration called by process: backboardd[22667], reason: System build version changed from (null) to 13D65
+2014-07-03 11:54:23.028|backboardd|22667|0x5055460|Error|Data migrator completed with success: NO!
+2014-07-03 11:54:23.028|backboardd|22667|0x4e5c6d0|Error|Data Migration failed!
+2014-07-03 11:54:23.029|backboardd|22667|0x4e5c6d0|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-07-04 16:02:31.234|backboardd|41050|0x4d36380|Info |System build version changed from (null) to 13D65. We're going to run migration.
+2014-07-04 16:02:31.258|backboardd|41050|0x4d36380|Note |DMPerformMigration called by process: backboardd[41050], reason: System build version changed from (null) to 13D65
+2014-07-04 16:02:31.271|backboardd|41050|0x4d29d80|Error|Data migrator completed with success: NO!
+2014-07-04 16:02:31.272|backboardd|41050|0x4d36380|Error|Data Migration failed!
+2014-07-04 16:02:31.272|backboardd|41050|0x4d36380|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-07-22 12:05:48.319|accountsd|44339|0x2e70c80|Note |DMPerformMigration called by process: accountsd[44339], reason: accountsd needs migration to finish
+2014-07-22 12:05:48.347|accountsd|44339|0x2e6fb60|Error|Data migrator completed with success: NO!
+2014-07-22 12:05:48.347|accountsd|44339|0x2e70c80|Error|Data Migration failed!
+2014-07-22 12:05:48.585|backboardd|44324|0x50178b0|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-07-22 12:05:48.588|backboardd|44324|0x50178b0|Note |DMPerformMigration called by process: backboardd[44324], reason: System build version changed from (null) to 13E28
+2014-07-22 12:05:48.603|backboardd|44324|0x5019600|Error|Data migrator completed with success: NO!
+2014-07-22 12:05:48.603|backboardd|44324|0x50178b0|Error|Data Migration failed!
+2014-07-22 12:05:48.604|backboardd|44324|0x50178b0|Info |Migration FAILED. (Elapsed time: 0.02 seconds)
+2014-08-01 10:10:28.296|backboardd|47663|0x4e41340|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-08-01 10:10:28.338|backboardd|47663|0x4e41340|Note |DMPerformMigration called by process: backboardd[47663], reason: System build version changed from (null) to 13E28
+2014-08-01 10:10:28.345|backboardd|47663|0x4f4b830|Error|Data migrator completed with success: NO!
+2014-08-01 10:10:28.346|backboardd|47663|0x4e41340|Error|Data Migration failed!
+2014-08-01 10:10:28.346|backboardd|47663|0x4e41340|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-08-01 10:28:22.803|backboardd|48537|0x4f74d90|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-08-01 10:28:22.855|backboardd|48537|0x4f74d90|Note |DMPerformMigration called by process: backboardd[48537], reason: System build version changed from (null) to 13E28
+2014-08-01 10:28:22.892|backboardd|48537|0x4d7b8c0|Error|Data migrator completed with success: NO!
+2014-08-01 10:28:22.899|backboardd|48537|0x4f74d90|Error|Data Migration failed!
+2014-08-01 10:28:22.900|backboardd|48537|0x4f74d90|Info |Migration FAILED. (Elapsed time: 0.05 seconds)
+2014-08-01 12:18:37.684|backboardd|53482|0x4d298d0|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-08-01 12:18:37.749|backboardd|53482|0x4d298d0|Note |DMPerformMigration called by process: backboardd[53482], reason: System build version changed from (null) to 13E28
+2014-08-01 12:18:37.758|backboardd|53482|0x4f1e2b0|Error|Data migrator completed with success: NO!
+2014-08-01 12:18:37.759|backboardd|53482|0x4d298d0|Error|Data Migration failed!
+2014-08-01 12:18:37.759|backboardd|53482|0x4d298d0|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-08-05 14:19:40.234|backboardd|79485|0x4e4c730|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-08-05 14:19:40.282|backboardd|79485|0x4e4c730|Note |DMPerformMigration called by process: backboardd[79485], reason: System build version changed from (null) to 13E28
+2014-08-05 14:19:40.289|backboardd|79485|0x4f58d90|Error|Data migrator completed with success: NO!
+2014-08-05 14:19:40.290|backboardd|79485|0x4e4c730|Error|Data Migration failed!
+2014-08-05 14:19:40.290|backboardd|79485|0x4e4c730|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-08-22 10:36:35.915|backboardd|80845|0x501dd80|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-08-22 10:36:35.971|backboardd|80845|0x501dd80|Note |DMPerformMigration called by process: backboardd[80845], reason: System build version changed from (null) to 13E28
+2014-08-22 10:36:35.988|backboardd|80845|0x4f11a20|Error|Data migrator completed with success: NO!
+2014-08-22 10:36:35.989|backboardd|80845|0x501dd80|Error|Data Migration failed!
+2014-08-22 10:36:35.989|backboardd|80845|0x501dd80|Info |Migration FAILED. (Elapsed time: 0.02 seconds)
+2014-08-25 11:47:38.931|backboardd|5713|0x4f2d030|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-08-25 11:47:39.074|backboardd|5713|0x4f2d030|Note |DMPerformMigration called by process: backboardd[5713], reason: System build version changed from (null) to 13E28
+2014-08-25 11:47:39.132|backboardd|5713|0x4f2ef30|Error|Data migrator completed with success: NO!
+2014-08-25 11:47:39.132|backboardd|5713|0x4f2d030|Error|Data Migration failed!
+2014-08-25 11:47:39.132|backboardd|5713|0x4f2d030|Info |Migration FAILED. (Elapsed time: 0.06 seconds)
+2014-08-25 16:27:43.966|backboardd|12915|0x4e668c0|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-08-25 16:27:43.985|backboardd|12915|0x4e668c0|Note |DMPerformMigration called by process: backboardd[12915], reason: System build version changed from (null) to 13E28
+2014-08-25 16:27:44.026|backboardd|12915|0x5062db0|Error|Data migrator completed with success: NO!
+2014-08-25 16:27:44.026|backboardd|12915|0x4e668c0|Error|Data Migration failed!
+2014-08-25 16:27:44.026|backboardd|12915|0x4e668c0|Info |Migration FAILED. (Elapsed time: 0.04 seconds)
+2014-09-22 10:36:03.201|backboardd|36376|0x5067b90|Info |System build version changed from (null) to 13E28. We're going to run migration.
+2014-09-22 10:36:03.286|backboardd|36376|0x5067b90|Note |DMPerformMigration called by process: backboardd[36376], reason: System build version changed from (null) to 13E28
+2014-09-22 10:36:03.561|backboardd|36376|0x50658d0|Error|Data migrator completed with success: NO!
+2014-09-22 10:36:03.562|backboardd|36376|0x5067b90|Error|Data Migration failed!
+2014-09-22 10:36:03.562|backboardd|36376|0x5067b90|Info |Migration FAILED. (Elapsed time: 0.28 seconds)
+2014-11-19 16:00:39.221|accountsd|55894|0x3169760|Note |DMPerformMigration called by process: accountsd[55894], reason: accountsd needs migration to finish
+2014-11-19 16:00:39.284|accountsd|55894|0x3063e60|Error|Data migrator completed with success: NO!
+2014-11-19 16:00:39.285|accountsd|55894|0x3169760|Error|Data Migration failed!
+2014-11-19 16:00:40.604|backboardd|55875|0x5033170|Info |System build version changed from (null) to 13F34. We're going to run migration.
+2014-11-19 16:00:40.606|backboardd|55875|0x5033170|Note |DMPerformMigration called by process: backboardd[55875], reason: System build version changed from (null) to 13F34
+2014-11-19 16:00:40.616|backboardd|55875|0x4f22870|Error|Data migrator completed with success: NO!
+2014-11-19 16:00:40.616|backboardd|55875|0x5033170|Error|Data Migration failed!
+2014-11-19 16:00:40.616|backboardd|55875|0x5033170|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2014-11-21 14:29:37.246|backboardd|85799|0x4d72cd0|Info |System build version changed from (null) to 13F34. We're going to run migration.
+2014-11-21 14:29:37.258|backboardd|85799|0x4d72cd0|Note |DMPerformMigration called by process: backboardd[85799], reason: System build version changed from (null) to 13F34
+2014-11-21 14:29:37.271|backboardd|85799|0x4e76460|Error|Data migrator completed with success: NO!
+2014-11-21 14:29:37.271|backboardd|85799|0x4d72cd0|Error|Data Migration failed!
+2014-11-21 14:29:37.271|backboardd|85799|0x4d72cd0|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2015-02-12 15:43:03.525|backboardd|22864|0x4f1ebe0|Info |System build version changed from (null) to 13F34. We're going to run migration.
+2015-02-12 15:43:03.566|backboardd|22864|0x4f1ebe0|Note |DMPerformMigration called by process: backboardd[22864], reason: System build version changed from (null) to 13F34
+2015-02-12 15:43:03.583|backboardd|22864|0x4e1e400|Error|Data migrator completed with success: NO!
+2015-02-12 15:43:03.584|backboardd|22864|0x4f1ebe0|Error|Data Migration failed!
+2015-02-12 15:43:03.584|backboardd|22864|0x4f1ebe0|Info |Migration FAILED. (Elapsed time: 0.02 seconds)
+2015-02-12 15:47:48.117|backboardd|24640|0x4f538b0|Info |System build version changed from (null) to 13F34. We're going to run migration.
+2015-02-12 15:47:48.119|backboardd|24640|0x4f538b0|Note |DMPerformMigration called by process: backboardd[24640], reason: System build version changed from (null) to 13F34
+2015-02-12 15:47:48.125|backboardd|24640|0x4e5d800|Error|Data migrator completed with success: NO!
+2015-02-12 15:47:48.126|backboardd|24640|0x4f538b0|Error|Data Migration failed!
+2015-02-12 15:47:48.126|backboardd|24640|0x4f538b0|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2015-02-12 15:58:17.810|backboardd|30385|0x4d59250|Info |System build version changed from (null) to 13F34. We're going to run migration.
+2015-02-12 15:58:17.812|backboardd|30385|0x4d59250|Note |DMPerformMigration called by process: backboardd[30385], reason: System build version changed from (null) to 13F34
+2015-02-12 15:58:17.818|backboardd|30385|0x4d59de0|Error|Data migrator completed with success: NO!
+2015-02-12 15:58:17.819|backboardd|30385|0x4d59250|Error|Data Migration failed!
+2015-02-12 15:58:17.819|backboardd|30385|0x4d59250|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2015-02-12 16:03:41.284|backboardd|32357|0x4e74960|Info |System build version changed from (null) to 13F34. We're going to run migration.
+2015-02-12 16:03:41.345|backboardd|32357|0x4e74960|Note |DMPerformMigration called by process: backboardd[32357], reason: System build version changed from (null) to 13F34
+2015-02-12 16:03:41.355|backboardd|32357|0x4d88e90|Error|Data migrator completed with success: NO!
+2015-02-12 16:03:41.355|backboardd|32357|0x4e74960|Error|Data Migration failed!
+2015-02-12 16:03:41.355|backboardd|32357|0x4e74960|Info |Migration FAILED. (Elapsed time: 0.01 seconds)
+2015-03-03 17:18:03.581|backboardd|94724|0x4e541e0|Info |System build version changed from (null) to 13F34. We're going to run migration.
+2015-03-03 17:18:03.627|backboardd|94724|0x4e541e0|Note |DMPerformMigration called by process: backboardd[94724], reason: System build version changed from (null) to 13F34
+2015-03-03 17:18:03.651|backboardd|94724|0x5058440|Error|Data migrator completed with success: NO!
+2015-03-03 17:18:03.652|backboardd|94724|0x4e541e0|Error|Data Migration failed!
+2015-03-03 17:18:03.652|backboardd|94724|0x4e541e0|Info |Migration FAILED. (Elapsed time: 0.02 seconds)
+2015-04-27 10:01:42.006|accountsd|78154|0x3028040|Note |DMPerformMigration called by process: accountsd[78154], reason: accountsd needs migration to finish
+2015-04-27 10:01:42.181|accountsd|78154|0x2e203a0|Error|Data migrator completed with success: NO!
+2015-04-27 10:01:42.515|backboardd|78140|0x508b7c0|Info |System build version changed from (null) to 13F1077. We're going to run migration.
+2015-04-27 10:01:42.181|accountsd|78154|0x3028040|Error|Data Migration failed!
+2015-04-27 10:01:42.517|backboardd|78140|0x508b7c0|Note |DMPerformMigration called by process: backboardd[78140], reason: System build version changed from (null) to 13F1077
+2015-04-27 10:01:42.551|backboardd|78140|0x4f81170|Error|Data migrator completed with success: NO!
+2015-04-27 10:01:42.551|backboardd|78140|0x508b7c0|Error|Data Migration failed!
+2015-04-27 10:01:42.552|backboardd|78140|0x508b7c0|Info |Migration FAILED. (Elapsed time: 0.03 seconds)
+2015-04-27 10:31:28.691|backboardd|81779|0x4d78330|Info |System build version changed from (null) to 13F1077. We're going to run migration.
+2015-04-27 10:31:28.729|backboardd|81779|0x4d78330|Note |DMPerformMigration called by process: backboardd[81779], reason: System build version changed from (null) to 13F1077
+2015-04-27 10:31:28.744|backboardd|81779|0x4d78a70|Error|Data migrator completed with success: NO!
+2015-04-27 10:31:28.745|backboardd|81779|0x4d78330|Error|Data Migration failed!
+2015-04-27 10:31:28.745|backboardd|81779|0x4d78330|Info |Migration FAILED. (Elapsed time: 0.02 seconds)
+2015-04-27 13:16:14.089|backboardd|1716|0x4d23200|Info |System build version changed from (null) to 13F1077. We're going to run migration.
+2015-04-27 13:16:14.139|backboardd|1716|0x4d23200|Note |DMPerformMigration called by process: backboardd[1716], reason: System build version changed from (null) to 13F1077
+2015-04-27 13:16:14.288|backboardd|1716|0x4d1ede0|Error|Data migrator completed with success: NO!
+2015-04-27 13:16:14.291|backboardd|1716|0x4d23200|Error|Data Migration failed!
+2015-04-27 13:16:14.292|backboardd|1716|0x4d23200|Info |Migration FAILED. (Elapsed time: 0.15 seconds)
+2015-05-06 13:00:18.673|backboardd|18395|0x4f88b60|Info |System build version changed from (null) to 13F1077. We're going to run migration.
+2015-05-06 13:00:18.757|backboardd|18395|0x4f88b60|Note |DMPerformMigration called by process: backboardd[18395], reason: System build version changed from (null) to 13F1077
+2015-05-06 13:00:18.774|backboardd|18395|0x4f897b0|Error|Data migrator completed with success: NO!
+2015-05-06 13:00:18.774|backboardd|18395|0x4f88b60|Error|Data Migration failed!
+2015-05-06 13:00:18.774|backboardd|18395|0x4f88b60|Info |Migration FAILED. (Elapsed time: 0.02 seconds)
+2015-07-09 18:05:28.666|accountsd|86846|0x3085de0|Note |DMPerformMigration called by process: accountsd[86846], reason: accountsd needs migration to finish
+2015-07-09 18:05:28.717|accountsd|86846|0x2f75e80|Error|Data migrator completed with success: NO!
+2015-07-09 18:05:28.718|accountsd|86846|0x3085de0|Error|Data Migration failed!
+2015-07-09 18:05:29.540|backboardd|86829|0x4e51090|Info |System build version changed from (null) to 13F1096. We're going to run migration.
+2015-07-09 18:05:29.542|backboardd|86829|0x4e51090|Note |DMPerformMigration called by process: backboardd[86829], reason: System build version changed from (null) to 13F1096
+2015-07-09 18:05:29.597|backboardd|86829|0x4f450b0|Error|Data migrator completed with success: NO!
+2015-07-09 18:05:29.598|backboardd|86829|0x4e51090|Error|Data Migration failed!
+2015-07-09 18:05:29.598|backboardd|86829|0x4e51090|Info |Migration FAILED. (Elapsed time: 0.06 seconds)
+2015-07-29 09:37:03.040|backboardd|65777|0x4f7cfb0|Info |System build version changed from (null) to 13F1096. We're going to run migration.
+2015-07-29 09:37:03.133|backboardd|65777|0x4f7cfb0|Note |DMPerformMigration called by process: backboardd[65777], reason: System build version changed from (null) to 13F1096
+2015-07-29 09:37:03.209|backboardd|65777|0x4f7df10|Error|Data migrator completed with success: NO!
+2015-07-29 09:37:03.210|backboardd|65777|0x4f7cfb0|Error|Data Migration failed!
+2015-07-29 09:37:03.210|backboardd|65777|0x4f7cfb0|Info |Migration FAILED. (Elapsed time: 0.08 seconds)
+2015-08-12 18:06:37.967|backboardd|90230|0x4f16240|Info |System build version changed from (null) to 13F1096. We're going to run migration.
+2015-08-12 18:06:38.027|backboardd|90230|0x4f16240|Note |DMPerformMigration called by process: backboardd[90230], reason: System build version changed from (null) to 13F1096
+2015-08-12 18:06:38.037|backboardd|90230|0x4d0b160|Error|Data migrator completed with success: NO!
+2015-08-12 18:06:38.038|backboardd|90230|0x4f16240|Error|Data Migration failed!
+2015-08-12 18:06:38.038|backboardd|90230|0x4f16240|Info |Migration FAILED. (Elapsed time: 0.01 seconds)

@@ -1,0 +1,75 @@
+ Time	               Bundle ID	              Status	Comment
+0.000	                       -	                   -	TALagent Started (system uptime: 154117.30 sec)
+0.016	                       -	                   -	Liveness: 0 -> 1 (run_as_server)
+0.022	                       -	                   -	Liveness: 1 -> 2 (create_xpc_listener)
+0.022	                       -	                   -	Blocking app contact
+0.043	                       -	                   -	Successfully read encryption key from keychain in 0.023965 seconds
+0.051	                       -	                   -	Liveness: 2 -> 3 (schedule_maintenance)
+0.278	                       -	                   -	server_show_windows_for_asns start
+0.279	                       -	                   -	Allowing apps to contact us
+0.280	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+0.280	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac, Finder
+0.280	                       -	                   -	Liveness: 3 -> 4 (add_app)
+0.280	      com.spotify.client	           Launching	
+0.297	      com.spotify.client	                   -	Failed to create a window: Menu bar bounds {1280, 22} different from menu bar frame size {2560, 44}
+0.298	 com.twitter.twitter-mac	           Launching	
+0.300	 com.twitter.twitter-mac	                   -	Failed to create a window image: Failed to read metadata for file '/Users/mike/Library/Saved Application State/com.twitter.twitter-mac.savedState/window_2.data'. errno is 2 (No such file or directory)
+0.305	 com.twitter.twitter-mac	                   -	Failed to create a window: Menu bar bounds {1280, 22} different from menu bar frame size {2560, 44}
+0.306	                       -	                   -	Finder not yet launched, but pretending it is
+0.565	                       -	                   -	_LSSetApplicationInformationItem(kLSDefaultSessionID, asn, _kLSApplicationIsHiddenKey, hidden ? kCFBooleanTrue : kCFBooleanFalse, NULL) produced OSStatus -50 on line 667 in TCApplication.m
+0.565	                       -	                   -	_LSSetApplicationInformationItem(kLSDefaultSessionID, asn, TAL_kLSIsProxiedForTALKey, kCFBooleanTrue, NULL) produced OSStatus -50 on line 670 in TCApplication.m
+0.566	        com.apple.finder	                   -	Failed to create a window: Menu bar bounds {1280, 22} different from menu bar frame size {2560, 22}
+0.782	                       -	                   -	loginwindow launched apps com.spotify.client, com.twitter.twitter-mac
+0.835	                       -	                   -	Bitmaps Ready (2 apps, 1 windows)
+0.835	      com.spotify.client	                   -	Disposing because it has no windows
+0.836	      com.spotify.client	            Disposed	
+0.836	 com.twitter.twitter-mac	                   -	Disposing because it has no windows
+0.836	 com.twitter.twitter-mac	            Disposed	
+0.836	                       -	                   -	server_show_windows_for_asns end
+0.839	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+0.839	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac, Finder
+0.839	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+0.839	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac, Finder
+0.839	        com.apple.finder	           Launching	
+0.841	                       -	                   -	Observed Finder launching for real
+0.841	        com.apple.finder	           Connected	
+0.841	                       -	                   -	Acquired designated connection from pid 96402 (app is <TCApplication: 0x7fe7e0411810 (com.apple.finder)>)
+1.100	        com.apple.finder	                   -	Reported finished launching.
+1.563	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+1.563	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac, Finder
+2.404	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+2.404	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac, Finder
+2.565	                       -	                   -	Refusing connection from pid 96398 (app was (null))
+3.022	                       -	                   -	Liveness: 4 -> 3 (__create_xpc_listener_block_invoke)
+4.016	        com.apple.finder	   Requested windows	1 window.
+4.016	        com.apple.finder	 Transferred windows	
+4.553	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+4.553	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac, Finder
+4.944	        com.apple.finder	       Ready to Draw	
+4.945	        com.apple.finder	                   -	Finder checked in
+4.945	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+4.945	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac
+5.609	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+5.609	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac
+5.954	        com.apple.finder	            Disposed	
+6.232	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+6.232	                       -	                   -	Still waiting for registration from com.spotify.client, com.twitter.twitter-mac
+7.954	                       -	                   -	Liveness: 3 -> 2 (__remove_app_block_invoke)
+9.940	                       -	                   -	Refusing connection from pid 96398 (app was (null))
+9.945	 com.twitter.twitter-mac	                   -	Registered as TAL ready
+9.945	                       -	                   -	TAL launch still in progress because com.spotify.client is unstopped (no) and/or unhidden (yes)
+9.945	                       -	                   -	Still waiting for registration from com.spotify.client
+10.280	                       -	                   -	Assuming that all apps that will be started, have been started. Stopped apps will no longer delay TAL launch completion.
+10.280	                       -	                   -	All started apps have registered (remaining TAL app(s) are com.spotify.client)
+10.282	                       -	                   -	TAL Relaunch - all apps registered as ready
+15.017	                       -	                   -	Liveness: 2 -> 1 (__run_as_server_block_invoke)
+309.416	                       -	                   -	Liveness: 1 -> 2 (perform_all_maintenance)
+309.416	                       -	                   -	Rotating key
+309.434	                       -	                   -	Modified the encryption key in-place in the keychain
+309.435	                       -	                   -	Liveness: 2 -> 3 (expire_or_reencrypt_bitmaps)
+309.436	                       -	                   -	Liveness: 3 -> 4 (expiration_perform_maintenance)
+309.436	                       -	                   -	Liveness: 4 -> 3 (perform_all_maintenance)
+309.436	                       -	                   -	Liveness: 3 -> 2 (__schedule_maintenance_block_invoke)
+309.486	                       -	                   -	Liveness: 2 -> 1 (__expiration_perform_maintenance_block_invoke)
+309.764	                       -	                   -	Liveness: 1 -> 0 (__expire_or_reencrypt_bitmaps_block_invoke)
+309.764	                       -	                   -	Exiting out of boredom
