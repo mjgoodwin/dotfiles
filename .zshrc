@@ -10,11 +10,13 @@ ZSH_THEME="agnoster"
 # ZSH_THEME="myagnoster"
 
 alias gitconfig="subl ~/.gitconfig"
-alias zsh="subl ~/.zshrc"
+alias zshconfig="subl ~/.zshrc"
+alias sshconfig="subl ~/.ssh_config"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 
 alias cdch="cd ~/chodes/financeit"
 alias cdc="cd ~/codes/"
+alias cdf="cd ~/codes/fantasia/"
 alias cdco="cd ~/codes/financeit"
 alias cdca="cd ~/ca/financeit"
 alias cdus="cd ~/us/financeit"
@@ -121,5 +123,7 @@ bindkey '[D' backward-word
 DEFAULT_USER=Goodwin
 
 zstyle ':completion:*' matcher-list 'r:[[:ascii:]]||[[:ascii:]]=** r:|=* m:{a-z\-}={A-Z\_}'
+
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
