@@ -5,10 +5,12 @@
   b = branch -v                     # branch (verbose)
 
   co = checkout
-  ci = commit -m
-  cim = commit
+  cim = commit -m
+  ci = commit
 
   cp = cherry-pick -x               # grab a change from a branch
+
+  mergenoff = merge --no-ff         # merge without fast forward
 
   pl = pull                         # pull
   ps = push                         # push

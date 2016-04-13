@@ -11,7 +11,7 @@ ZSH_THEME="agnoster"
 
 alias gitconfig="subl ~/.gitconfig"
 alias zshconfig="subl ~/.zshrc"
-alias sshconfig="subl ~/.ssh_config"
+alias sshconfig="subl ~/.ssh/config"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 
 alias cdch="cd ~/chodes/financeit"
@@ -25,6 +25,7 @@ alias cdma="cd ~/codes/marketing_site"
 alias setca="echo 'REGION: canada' > config/application.yml; reg"
 alias setus="echo 'REGION: usa' > config/application.yml; reg"
 alias reg="cat config/application.yml"
+alias dump_qa_db="ssh admin@ca-qa.gofinanceit.com 'mysqldump -u root financeit_ca_qa | gzip -f -9' > financeit_ca_qa.`date +%Y%m%d`.sql.gz"
 
 alias tml="tmux list-sessions"
 alias tma="tmux -2 attach -t $1"
@@ -127,3 +128,13 @@ zstyle ':completion:*' matcher-list 'r:[[:ascii:]]||[[:ascii:]]=** r:|=* m:{a-z\
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+zeus () {
+  ARGS=$@;
+  command zeus "$@";
+  ZE_EC=$?;
+  if [ $ZE_EC = 2 ]; then
+    stty sane;
+    zeus ${=ARGS};
+  fi
+}
